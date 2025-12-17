@@ -1,0 +1,13 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="19.999999999999545" scrolly="20" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="0" scrolly="0" scale="1">
+    <block xmlns="https://developers.google.com/blockly/xml" type="checkVRMode" id="Dnmd|cl7MDfQbDVW*Kq:" x="430" y="270">
+      <statement name="DO_AVAIL">
+        <block type="enterVRMode" id="mN!UZc~SmuuVTeM;)PU]">
+          <field name="REF_SPACE">SITTING</field>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="997.1999999999999" viewport-y="37" viewport-w="676.8" viewport-h="422" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
