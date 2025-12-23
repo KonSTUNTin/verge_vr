@@ -1397,7 +1397,7 @@ registerEveryFrame(function() {
 
             if ((Math.abs(rightStickX) > threshold || Math.abs(rightStickY) > threshold) && !prevStickMoved) {
                 controlVisible = !controlVisible;
-                changeVis('control', controlVisible);
+                changeVis('state_0', controlVisible);
                 prevStickMoved = true;
             } else if (Math.abs(rightStickX) < threshold && Math.abs(rightStickY) < threshold) {
                 prevStickMoved = false; // сброс состояния, когда стик вернулся в центр
