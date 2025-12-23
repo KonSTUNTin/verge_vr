@@ -1390,7 +1390,7 @@ registerEveryFrame(function() {
             );
 
             // обработка нажатия (не удержания)
-            if (buttonPressed && !prevButtonState) {
+            if ((buttonPressed !=0) && !prevButtonState) {
                 controlVisible = !controlVisible;
                 changeVis('control', controlVisible);
             }
