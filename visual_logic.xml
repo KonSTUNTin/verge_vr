@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="955.271484375" scrolly="-715.4756469726562" scale="1">
+  <tab name="main" type="CommonTab" active="true" scrollx="1232.9712027431706" scrolly="-877.6808955680171" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="/1J858RY/]-Br.Ko@o^(">event</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -571,34 +571,6 @@
                               </value>
                             </block>
                           </value>
-                          <next>
-                            <block type="controls_if" id="u4#9pdCs)pJudWjh@dd|">
-                              <value name="IF0">
-                                <block type="logic_compare" id="5g%iW]6dE=sK8Fe_3SUH">
-                                  <field name="OP">GT</field>
-                                  <value name="A">
-                                    <block type="variables_get" id="vvn-P+nz.3~*@z]6Kxb4">
-                                      <field name="VAR" id="/1J858RY/]-Br.Ko@o^(">event</field>
-                                    </block>
-                                  </value>
-                                  <value name="B">
-                                    <block type="math_number" id="PF7%zs$CEXqo!P9l;scF">
-                                      <field name="NUM">0</field>
-                                    </block>
-                                  </value>
-                                </block>
-                              </value>
-                              <statement name="DO0">
-                                <block type="hide" id="^{:H3V]kKhXWH{05ONNU">
-                                  <value name="VALUE">
-                                    <shadow type="objectList" id="JZ)ZeTNKZ%y`fQHLEPJi">
-                                      <field name="FIELDNAME">control</field>
-                                    </shadow>
-                                  </value>
-                                </block>
-                              </statement>
-                            </block>
-                          </next>
                         </block>
                       </statement>
                     </block>
@@ -607,6 +579,34 @@
               </statement>
             </block>
           </statement>
+          <next>
+            <block type="controls_if" id="u4#9pdCs)pJudWjh@dd|">
+              <value name="IF0">
+                <block type="logic_compare" id="5g%iW]6dE=sK8Fe_3SUH">
+                  <field name="OP">NEQ</field>
+                  <value name="A">
+                    <block type="variables_get" id="vvn-P+nz.3~*@z]6Kxb4">
+                      <field name="VAR" id="/1J858RY/]-Br.Ko@o^(">event</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="math_number" id="PF7%zs$CEXqo!P9l;scF">
+                      <field name="NUM">0</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <statement name="DO0">
+                <block type="hide" id="^{:H3V]kKhXWH{05ONNU">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="JZ)ZeTNKZ%y`fQHLEPJi">
+                      <field name="FIELDNAME">control</field>
+                    </shadow>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </next>
         </block>
       </next>
     </block>
