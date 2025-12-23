@@ -1407,9 +1407,6 @@ registerEveryFrame(function() {
 });
 
 
-
-
-
 eventHTMLElem('click', 'enter_vr_button', false, function(event) {
     VR_INIT();
 });
