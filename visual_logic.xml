@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="762.8613273231538" scrolly="-645.1307725886877" scale="0.8576290643277493">
+  <tab name="main" type="CommonTab" active="true" scrollx="787.4302093497488" scrolly="-353.3982538099654" scale="0.7673892661963213">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
       <variable id="-.h88?$85U|3}LvR2UU)">move forward</variable>
@@ -548,46 +548,38 @@
                                                                     </shadow>
                                                                   </value>
                                                                   <value name="X">
-                                                                    <block type="math_single" id="8;fcuh-m6-@Gvv*nMU7^">
-                                                                      <field name="OP">NEG</field>
-                                                                      <value name="NUM">
-                                                                        <shadow type="math_number" id="n/[%fH1xcMO6zH.(Sy.}">
-                                                                          <field name="NUM">4</field>
+                                                                    <block type="math_arithmetic" id="%T~O.xye%rrQY[FWuBM=">
+                                                                      <field name="OP">MINUS</field>
+                                                                      <value name="A">
+                                                                        <shadow type="math_number" id="?$y(kmM4vcR*N{jc4I:%">
+                                                                          <field name="NUM">2</field>
                                                                         </shadow>
-                                                                        <block type="math_arithmetic" id="ID1cJ{dd;NUa:j5@2At:" inline="false">
-                                                                          <field name="OP">ADD</field>
-                                                                          <value name="A">
-                                                                            <shadow type="math_number" id="5b#rtwuu;~JaC=RdbmGK">
+                                                                        <block type="getGamepadProp" id="puQrpFq(VaYj:rDjHA^:">
+                                                                          <field name="PROPERTY">AXIS</field>
+                                                                          <field name="CONTROL_INDEX">1</field>
+                                                                          <value name="INDEX">
+                                                                            <shadow type="math_number" id=".)+gQmXfP[|Ers?nQ5$J">
                                                                               <field name="NUM">2</field>
                                                                             </shadow>
-                                                                            <block type="getGamepadProp" id="puQrpFq(VaYj:rDjHA^:">
-                                                                              <field name="PROPERTY">AXIS</field>
-                                                                              <field name="CONTROL_INDEX">1</field>
-                                                                              <value name="INDEX">
-                                                                                <shadow type="math_number" id=".)+gQmXfP[|Ers?nQ5$J">
-                                                                                  <field name="NUM">2</field>
-                                                                                </shadow>
-                                                                                <block type="xrControllerProp" id="UiQd88Qt_k=o`Oq@;HWe">
-                                                                                  <field name="PROPERTY">GAMEPAD_INDEX</field>
-                                                                                </block>
-                                                                              </value>
+                                                                            <block type="xrControllerProp" id="UiQd88Qt_k=o`Oq@;HWe">
+                                                                              <field name="PROPERTY">GAMEPAD_INDEX</field>
                                                                             </block>
                                                                           </value>
-                                                                          <value name="B">
-                                                                            <shadow type="math_number" id="Q/c.aBPw0XSLXP`p./8*">
+                                                                        </block>
+                                                                      </value>
+                                                                      <value name="B">
+                                                                        <shadow type="math_number" id="c~C%gV(`/P7i^Vl56D]S">
+                                                                          <field name="NUM">2</field>
+                                                                        </shadow>
+                                                                        <block type="getGamepadProp" id="^,^`jX17ESg;$Gtg=(V]">
+                                                                          <field name="PROPERTY">AXIS</field>
+                                                                          <field name="CONTROL_INDEX">3</field>
+                                                                          <value name="INDEX">
+                                                                            <shadow type="math_number" id="@chi_:vMhrmh1pB*/}I[">
                                                                               <field name="NUM">2</field>
                                                                             </shadow>
-                                                                            <block type="getGamepadProp" id="^,^`jX17ESg;$Gtg=(V]">
-                                                                              <field name="PROPERTY">AXIS</field>
-                                                                              <field name="CONTROL_INDEX">3</field>
-                                                                              <value name="INDEX">
-                                                                                <shadow type="math_number" id="@chi_:vMhrmh1pB*/}I[">
-                                                                                  <field name="NUM">2</field>
-                                                                                </shadow>
-                                                                                <block type="xrControllerProp" id="v^oSa;sxa3e=U:j|,URG">
-                                                                                  <field name="PROPERTY">GAMEPAD_INDEX</field>
-                                                                                </block>
-                                                                              </value>
+                                                                            <block type="xrControllerProp" id="v^oSa;sxa3e=U:j|,URG">
+                                                                              <field name="PROPERTY">GAMEPAD_INDEX</field>
                                                                             </block>
                                                                           </value>
                                                                         </block>
