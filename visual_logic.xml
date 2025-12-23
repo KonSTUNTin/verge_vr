@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="847.8894250448834" scrolly="-363.50571179607147" scale="0.7176736359629234">
+  <tab name="main" type="CommonTab" active="true" scrollx="856.0501564697465" scrolly="-962.0745029037844" scale="0.8891969989185502">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
       <variable id="-.h88?$85U|3}LvR2UU)">move forward</variable>
@@ -642,42 +642,8 @@
                         <block type="variables_set" id="jWg{j`=jqJNdl4*|vOY@">
                           <field name="VAR" id="j3/d.QT85aC$:.b(?S{z">move side</field>
                           <value name="VALUE">
-                            <block type="math_arithmetic" id="vYB5pJbFXV58fIw@Ai8Q" inline="false">
-                              <field name="OP">ADD</field>
-                              <value name="A">
-                                <shadow type="math_number" id="8c04-b~LzW,kks+PzR,C">
-                                  <field name="NUM">2</field>
-                                </shadow>
-                                <block type="getGamepadProp" id="mwvVXjZyj%D!!.,T5@_3">
-                                  <field name="PROPERTY">AXIS</field>
-                                  <field name="CONTROL_INDEX">0</field>
-                                  <value name="INDEX">
-                                    <shadow type="math_number" id="Dv%+3,S+O.UCWqBbs_]+">
-                                      <field name="NUM">2</field>
-                                    </shadow>
-                                    <block type="xrControllerProp" id="!/c:p+xh!@r]lwj#VlCG">
-                                      <field name="PROPERTY">GAMEPAD_INDEX</field>
-                                    </block>
-                                  </value>
-                                </block>
-                              </value>
-                              <value name="B">
-                                <shadow type="math_number" id="l)zpqaC@qwg!E?=VIaf|">
-                                  <field name="NUM">2</field>
-                                </shadow>
-                                <block type="getGamepadProp" id="MSjFepc3KD/ZRQf*6;m2">
-                                  <field name="PROPERTY">AXIS</field>
-                                  <field name="CONTROL_INDEX">2</field>
-                                  <value name="INDEX">
-                                    <shadow type="math_number" id="qpKk}/)9%IhU8Tj[#G(G">
-                                      <field name="NUM">2</field>
-                                    </shadow>
-                                    <block type="xrControllerProp" id="[~wOx|z:2n(0L#Z_+CMq">
-                                      <field name="PROPERTY">GAMEPAD_INDEX</field>
-                                    </block>
-                                  </value>
-                                </block>
-                              </value>
+                            <block type="math_number" id="a37}wPhw4wMR3pa:MR@|">
+                              <field name="NUM">0</field>
                             </block>
                           </value>
                           <next>
@@ -721,6 +687,43 @@
                                             <shadow type="math_number" id="e(^dK^@J@+Z^!Dq/f8UK">
                                               <field name="NUM">-90</field>
                                             </shadow>
+                                            <block type="math_arithmetic" id="!rJ6Q47RZJ#CL`2wf`W+" inline="false">
+                                              <field name="OP">ADD</field>
+                                              <value name="A">
+                                                <shadow type="math_number" id="8c04-b~LzW,kks+PzR,C">
+                                                  <field name="NUM">2</field>
+                                                </shadow>
+                                                <block type="getGamepadProp" id="(*II:X(c?}2NgsM;/Jcy">
+                                                  <field name="PROPERTY">AXIS</field>
+                                                  <field name="CONTROL_INDEX">0</field>
+                                                  <value name="INDEX">
+                                                    <shadow type="math_number" id="Dv%+3,S+O.UCWqBbs_]+">
+                                                      <field name="NUM">2</field>
+                                                    </shadow>
+                                                    <block type="xrControllerProp" id="bP9vc-p6,|u$zUavyQ+7">
+                                                      <field name="PROPERTY">GAMEPAD_INDEX</field>
+                                                    </block>
+                                                  </value>
+                                                </block>
+                                              </value>
+                                              <value name="B">
+                                                <shadow type="math_number" id="l)zpqaC@qwg!E?=VIaf|">
+                                                  <field name="NUM">2</field>
+                                                </shadow>
+                                                <block type="getGamepadProp" id="L[+C!`l@+f:@-ncsE,j7">
+                                                  <field name="PROPERTY">AXIS</field>
+                                                  <field name="CONTROL_INDEX">2</field>
+                                                  <value name="INDEX">
+                                                    <shadow type="math_number" id="qpKk}/)9%IhU8Tj[#G(G">
+                                                      <field name="NUM">2</field>
+                                                    </shadow>
+                                                    <block type="xrControllerProp" id="njBqkrm.%IFvjYu7).V?">
+                                                      <field name="PROPERTY">GAMEPAD_INDEX</field>
+                                                    </block>
+                                                  </value>
+                                                </block>
+                                              </value>
+                                            </block>
                                           </value>
                                         </block>
                                       </value>
