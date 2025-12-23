@@ -1380,13 +1380,24 @@ registerEveryFrame(function() {
             }
         }
         if ((_pGlob.gamepadIndex || 0) == 1) {
-            event2 = getGamepadProp(xrControllerProp('GAMEPAD_INDEX'), 'BUTTON', '0');
+
+            var buttonPressed = getGamepadProp(
+                xrControllerProp('GAMEPAD_INDEX'),
+                'BUTTON',
+                0 // кнопка стика / primary
+            );
+
+            // обработка нажатия (не удержания)
+            if (buttonPressed && !prevButtonState) {
+                controlVisible = !controlVisible;
+                changeVis('control', controlVisible);
+            }
+
+            prevButtonState = buttonPressed;
         }
     });
 });
-if (event2 != 0) {
-    changeVis('control', false);
-}
+
 
 eventHTMLElem('click', 'enter_vr_button', false, function(event) {
     VR_INIT();
