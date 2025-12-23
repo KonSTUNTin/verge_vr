@@ -1362,6 +1362,8 @@ checkVRMode(function() {
 });
 
 event2 = 0;
+var controlVisible = true;
+var prevButtonState = false;
 registerEveryFrame(function() {
     traverseControllers(function() {
         if ((_pGlob.gamepadIndex || 0) == 0) {
