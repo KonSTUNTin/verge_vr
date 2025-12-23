@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1066.8641357421875" scrolly="-215.06179809570312" scale="1">
+  <tab name="main" type="CommonTab" active="true" scrollx="1000.5675048828125" scrolly="-1458.0000000000002" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -919,6 +919,43 @@
                                   </statement>
                                 </block>
                               </statement>
+                              <next>
+                                <block type="whenHovered" id="n?=f!g@/PLc.SeiXCbc#" inline="false">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+                                  <field name="X_RAY">FALSE</field>
+                                  <value name="VALUE">
+                                    <shadow type="objectList" id="o.;U!st_.ng(CDdDuewu">
+                                      <field name="FIELDNAME">hover_1</field>
+                                    </shadow>
+                                  </value>
+                                  <statement name="DO_OVER">
+                                    <block type="setMaterialColor" id="ShdN`d{KDaL_zsgB%Y~w">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" flexcolinput="false" usecsscolor="false"></mutation>
+                                      <field name="MAT_COL_NAME">Principled BSDF Color</field>
+                                      <value name="MATERIAL">
+                                        <shadow type="materialList" id="Ti_k2AeHo!If=T7isc,a">
+                                          <field name="FIELDNAME">Blue</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="R">
+                                        <shadow type="math_number" id="ef_B.]LQOXyX$rb@UsYm">
+                                          <field name="NUM">0.5</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="G">
+                                        <shadow type="math_number" id="c|!=@$40D95*u{DE{K}d">
+                                          <field name="NUM">0.5</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="B">
+                                        <shadow type="math_number" id="@D0w/b1PlBF7y0xluxp*">
+                                          <field name="NUM">0.5</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </statement>
+                                </block>
+                              </next>
                             </block>
                           </next>
                         </block>
