@@ -1363,7 +1363,7 @@ checkVRMode(function() {
 
 event2 = 0;
 var controlVisible = true;
-var prevButtonState = false;
+var prevStickMoved = false;
 registerEveryFrame(function() {
     traverseControllers(function() {
         if ((_pGlob.gamepadIndex || 0) == 0) {
@@ -1381,8 +1381,15 @@ registerEveryFrame(function() {
                 setObjTransform(xrCameraControlObject(), false, 'position', dir_vector, true);
             }
         }
-        if (gamepadIndex == 1) {
-            // Правый стик: переключение видимости
+        
+
+
+
+        if ((_pGlob.gamepadIndex || 0) == 1) {
+
+        
+
+
             var rightStickX = getGamepadProp(xrControllerProp('GAMEPAD_INDEX'), 'AXIS', '2');
             var rightStickY = getGamepadProp(xrControllerProp('GAMEPAD_INDEX'), 'AXIS', '3');
 
