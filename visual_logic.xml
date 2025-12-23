@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="858.7477461416292" scrolly="-983.0335238414441" scale="0.9547554625944001">
+  <tab name="main" type="CommonTab" active="true" scrollx="854.7477461416292" scrolly="-943.0335238414441" scale="0.9547554625944001">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="@bD~%cJFHMDKf4x;|YL^">prevStickMoved</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -570,7 +570,7 @@
                               <field name="VAR" id="(^kgO;96go3/6PFc2-@X">YY</field>
                               <value name="VALUE">
                                 <block type="getGamepadProp" id="lUyZLrZvmO+4Sx1NA[X?">
-                                  <field name="PROPERTY">BUTTON</field>
+                                  <field name="PROPERTY">AXIS</field>
                                   <field name="CONTROL_INDEX">0</field>
                                   <value name="INDEX">
                                     <shadow type="math_number" id="Dv%+3,S+O.UCWqBbs_]+">
@@ -587,7 +587,7 @@
                                   <field name="VAR" id="#;D_2@.^um63()@uxktH">XX</field>
                                   <value name="VALUE">
                                     <block type="getGamepadProp" id="6%(1}%9FKF#FQuL55g^1">
-                                      <field name="PROPERTY">BUTTON</field>
+                                      <field name="PROPERTY">AXIS</field>
                                       <field name="CONTROL_INDEX">2</field>
                                       <value name="INDEX">
                                         <shadow type="math_number" id="Dv%+3,S+O.UCWqBbs_]+">
