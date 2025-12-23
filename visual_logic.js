@@ -1361,12 +1361,48 @@ checkVRMode(function() {
     setHTMLElemStyle('display', 'none', 'enter_vr_button', false);
 });
 
+
+
+
 event2 = 0;
-var controlVisible = true;
+
+var states = [];
+var currentState = 0;
 var prevStickMoved = false;
-registerEveryFrame(function() {
-    traverseControllers(function() {
-        if ((_pGlob.gamepadIndex || 0) == 0) {
+
+/* -------- автосбор state_ -------- */
+function collectStates() {
+    var i = 0;
+    while (true) {
+        var name = 'state_' + i;
+
+        // безопасная проверка существования
+        try {
+            getObjTransform(name, false, 'position', 'xyz');
+            states.push(name);
+            i++;
+        } catch (e) {
+            break;
+        }
+    }
+}
+
+collectStates();
+
+/* -------- показ активного state -------- */
+function showState(index) {
+    for (var i = 0; i < states.length; i++) {
+        changeVis(states[i], i === index);
+    }
+}
+
+if (states.length > 0) {
+    showState(currentState);
+}
+
+registerEveryFrame(function () {
+    traverseControllers(function () {
+          if ((_pGlob.gamepadIndex || 0) == 0) {
             move_forward = -(getGamepadProp(xrControllerProp('GAMEPAD_INDEX'), 'AXIS', '1') + getGamepadProp(xrControllerProp('GAMEPAD_INDEX'), 'AXIS', '3'));
             move_side = getGamepadProp(xrControllerProp('GAMEPAD_INDEX'), 'AXIS', '0') + getGamepadProp(xrControllerProp('GAMEPAD_INDEX'), 'AXIS', '2');
             dir_vector_forward = getObjDirection(getActiveCamera(), 'HORIZONTAL');
@@ -1380,27 +1416,37 @@ registerEveryFrame(function() {
             if (!!raycast_result.length) {
                 setObjTransform(xrCameraControlObject(), false, 'position', dir_vector, true);
             }
-        }
-        
+        }   
+        /* -------- правый контроллер -------- */
+        if ((_pGlob.gamepadIndex || 0) == 1 && states.length > 0) {
 
+            var rightStickX = getGamepadProp(
+                xrControllerProp('GAMEPAD_INDEX'),
+                'AXIS',
+                '2'
+            );
 
+            var threshold = 0.6;
 
-        if ((_pGlob.gamepadIndex || 0) == 1) {
+            if (Math.abs(rightStickX) > threshold && !prevStickMoved) {
 
-        
+                if (rightStickX > 0) {
+                    currentState++;
+                } else {
+                    currentState--;
+                }
 
+                // зацикливание
+                if (currentState >= states.length) currentState = 0;
+                if (currentState < 0) currentState = states.length - 1;
 
-            var rightStickX = getGamepadProp(xrControllerProp('GAMEPAD_INDEX'), 'AXIS', '2');
-            var rightStickY = getGamepadProp(xrControllerProp('GAMEPAD_INDEX'), 'AXIS', '3');
-
-            var threshold = 0.5; // минимальное движение для срабатывания
-
-            if ((Math.abs(rightStickX) > threshold || Math.abs(rightStickY) > threshold) && !prevStickMoved) {
-                controlVisible = !controlVisible;
-                changeVis('state_0', controlVisible);
+                showState(currentState);
                 prevStickMoved = true;
-            } else if (Math.abs(rightStickX) < threshold && Math.abs(rightStickY) < threshold) {
-                prevStickMoved = false; // сброс состояния, когда стик вернулся в центр
+            }
+
+            // возврат стика в центр
+            if (Math.abs(rightStickX) < 0.2) {
+                prevStickMoved = false;
             }
         }
     });
