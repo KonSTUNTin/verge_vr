@@ -8,8 +8,9 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="845.5726398189408" scrolly="-481.91684307606954" scale="0.7835410995679064">
+  <tab name="main" type="CommonTab" active="true" scrollx="955.271484375" scrolly="-715.4756469726562" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="/1J858RY/]-Br.Ko@o^(">event</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
       <variable id="-.h88?$85U|3}LvR2UU)">move forward</variable>
       <variable id="j3/d.QT85aC$:.b(?S{z">move side</variable>
@@ -168,124 +169,76 @@
         </block>
       </statement>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="|0kQKK=|X*UNW*9Q8b]Y" x="390" y="350">
-      <field name="EVENT">click</field>
-      <field name="PARENT">FALSE</field>
-      <value name="ID">
-        <shadow type="text" id="ej7iv-}?Qj-LfZCOf?e?">
-          <field name="TEXT">enter_vr_button</field>
-        </shadow>
-      </value>
-      <statement name="DO">
-        <block type="procedures_callnoreturn" id="lx:$x/iG-aL{JaOnTPeA">
-          <mutation name="VR_INIT"></mutation>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="A#+hJ;D/07VV?3q)Rm#+" x="-790" y="410">
+      <field name="VAR" id="/1J858RY/]-Br.Ko@o^(">event</field>
+      <value name="VALUE">
+        <block type="math_number" id="}Yz,2WHqG+ov?fq1J8Wp">
+          <field name="NUM">0</field>
         </block>
-      </statement>
-    </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="everyFrame" id="r%XR)*HEl_1SJEVWrX^@" x="-790" y="430">
-      <statement name="DO">
-        <block type="traverseControllers" id="w)K?T?E$p$EM3|bIf)5N">
+      </value>
+      <next>
+        <block type="everyFrame" id="r%XR)*HEl_1SJEVWrX^@">
           <statement name="DO">
-            <block type="controls_if" id="(bMAE0%8fO?%5bk%rs?|">
-              <value name="IF0">
-                <block type="logic_compare" id="5PcvscuGdF4mcyNY~u8k">
-                  <field name="OP">EQ</field>
-                  <value name="A">
-                    <block type="gamepadIndex" id="n|a^PJSex~}+P4$F!psY"></block>
-                  </value>
-                  <value name="B">
-                    <block type="math_number" id="[ajt}Yee1#~Q(9^8hc6b">
-                      <field name="NUM">0</field>
-                    </block>
-                  </value>
-                </block>
-              </value>
-              <statement name="DO0">
-                <block type="variables_set" id="y8_w@b=B#4k:m.Hzrm])">
-                  <field name="VAR" id="-.h88?$85U|3}LvR2UU)">move forward</field>
-                  <value name="VALUE">
-                    <block type="math_single" id="Q3)BH9Q/Y9s|6`DuD*oP">
-                      <field name="OP">NEG</field>
-                      <value name="NUM">
-                        <shadow type="math_number" id="n/[%fH1xcMO6zH.(Sy.}">
-                          <field name="NUM">4</field>
-                        </shadow>
-                        <block type="math_arithmetic" id="X6yg#69@!_Qa4dpIXoa2" inline="false">
-                          <field name="OP">ADD</field>
-                          <value name="A">
-                            <shadow type="math_number" id="5b#rtwuu;~JaC=RdbmGK">
-                              <field name="NUM">2</field>
-                            </shadow>
-                            <block type="getGamepadProp" id="dGC%hJw6U8Q^3NRAs8zs">
-                              <field name="PROPERTY">AXIS</field>
-                              <field name="CONTROL_INDEX">1</field>
-                              <value name="INDEX">
-                                <shadow type="math_number" id=".)+gQmXfP[|Ers?nQ5$J">
-                                  <field name="NUM">2</field>
-                                </shadow>
-                                <block type="xrControllerProp" id=".l:eXNv_Bu525w/9Nb`o">
-                                  <field name="PROPERTY">GAMEPAD_INDEX</field>
-                                </block>
-                              </value>
-                            </block>
-                          </value>
-                          <value name="B">
-                            <shadow type="math_number" id="Q/c.aBPw0XSLXP`p./8*">
-                              <field name="NUM">2</field>
-                            </shadow>
-                            <block type="getGamepadProp" id="]V(/)OG]b%6DGG!EzP_c">
-                              <field name="PROPERTY">AXIS</field>
-                              <field name="CONTROL_INDEX">3</field>
-                              <value name="INDEX">
-                                <shadow type="math_number" id="@chi_:vMhrmh1pB*/}I[">
-                                  <field name="NUM">2</field>
-                                </shadow>
-                                <block type="xrControllerProp" id="n:x,~[j9uj6/dM;EJbSN">
-                                  <field name="PROPERTY">GAMEPAD_INDEX</field>
-                                </block>
-                              </value>
-                            </block>
-                          </value>
+            <block type="traverseControllers" id="w)K?T?E$p$EM3|bIf)5N">
+              <statement name="DO">
+                <block type="controls_if" id="(bMAE0%8fO?%5bk%rs?|">
+                  <value name="IF0">
+                    <block type="logic_compare" id="5PcvscuGdF4mcyNY~u8k">
+                      <field name="OP">EQ</field>
+                      <value name="A">
+                        <block type="gamepadIndex" id="n|a^PJSex~}+P4$F!psY"></block>
+                      </value>
+                      <value name="B">
+                        <block type="math_number" id="[ajt}Yee1#~Q(9^8hc6b">
+                          <field name="NUM">0</field>
                         </block>
                       </value>
                     </block>
                   </value>
-                  <next>
-                    <block type="variables_set" id="BkVlE)L0:bREEaj5O[nc">
-                      <field name="VAR" id="j3/d.QT85aC$:.b(?S{z">move side</field>
+                  <statement name="DO0">
+                    <block type="variables_set" id="y8_w@b=B#4k:m.Hzrm])">
+                      <field name="VAR" id="-.h88?$85U|3}LvR2UU)">move forward</field>
                       <value name="VALUE">
-                        <block type="math_arithmetic" id="9tTPh%yLr;R/s3[CXDpw" inline="false">
-                          <field name="OP">ADD</field>
-                          <value name="A">
-                            <shadow type="math_number" id="8c04-b~LzW,kks+PzR,C">
-                              <field name="NUM">2</field>
+                        <block type="math_single" id="Q3)BH9Q/Y9s|6`DuD*oP">
+                          <field name="OP">NEG</field>
+                          <value name="NUM">
+                            <shadow type="math_number" id="n/[%fH1xcMO6zH.(Sy.}">
+                              <field name="NUM">4</field>
                             </shadow>
-                            <block type="getGamepadProp" id="Ew*c*^`ZZZKsFlIyLOH$">
-                              <field name="PROPERTY">AXIS</field>
-                              <field name="CONTROL_INDEX">0</field>
-                              <value name="INDEX">
-                                <shadow type="math_number" id="Dv%+3,S+O.UCWqBbs_]+">
+                            <block type="math_arithmetic" id="X6yg#69@!_Qa4dpIXoa2" inline="false">
+                              <field name="OP">ADD</field>
+                              <value name="A">
+                                <shadow type="math_number" id="5b#rtwuu;~JaC=RdbmGK">
                                   <field name="NUM">2</field>
                                 </shadow>
-                                <block type="xrControllerProp" id="-ceK.9U_]6vRAc84_!a$">
-                                  <field name="PROPERTY">GAMEPAD_INDEX</field>
+                                <block type="getGamepadProp" id="dGC%hJw6U8Q^3NRAs8zs">
+                                  <field name="PROPERTY">AXIS</field>
+                                  <field name="CONTROL_INDEX">1</field>
+                                  <value name="INDEX">
+                                    <shadow type="math_number" id=".)+gQmXfP[|Ers?nQ5$J">
+                                      <field name="NUM">2</field>
+                                    </shadow>
+                                    <block type="xrControllerProp" id=".l:eXNv_Bu525w/9Nb`o">
+                                      <field name="PROPERTY">GAMEPAD_INDEX</field>
+                                    </block>
+                                  </value>
                                 </block>
                               </value>
-                            </block>
-                          </value>
-                          <value name="B">
-                            <shadow type="math_number" id="l)zpqaC@qwg!E?=VIaf|">
-                              <field name="NUM">2</field>
-                            </shadow>
-                            <block type="getGamepadProp" id="ReM6-VglLzfi7Im@44rW">
-                              <field name="PROPERTY">AXIS</field>
-                              <field name="CONTROL_INDEX">2</field>
-                              <value name="INDEX">
-                                <shadow type="math_number" id="qpKk}/)9%IhU8Tj[#G(G">
+                              <value name="B">
+                                <shadow type="math_number" id="Q/c.aBPw0XSLXP`p./8*">
                                   <field name="NUM">2</field>
                                 </shadow>
-                                <block type="xrControllerProp" id="-ur={~wNjh6Cd!k$kO[*">
-                                  <field name="PROPERTY">GAMEPAD_INDEX</field>
+                                <block type="getGamepadProp" id="]V(/)OG]b%6DGG!EzP_c">
+                                  <field name="PROPERTY">AXIS</field>
+                                  <field name="CONTROL_INDEX">3</field>
+                                  <value name="INDEX">
+                                    <shadow type="math_number" id="@chi_:vMhrmh1pB*/}I[">
+                                      <field name="NUM">2</field>
+                                    </shadow>
+                                    <block type="xrControllerProp" id="n:x,~[j9uj6/dM;EJbSN">
+                                      <field name="PROPERTY">GAMEPAD_INDEX</field>
+                                    </block>
+                                  </value>
                                 </block>
                               </value>
                             </block>
@@ -293,235 +246,279 @@
                         </block>
                       </value>
                       <next>
-                        <block type="variables_set" id="@/Vtro-?0~Y_3{QgU+8p">
-                          <field name="VAR" id="2oj|+Q,rv1jk,~GZfH}2">dir vector forward</field>
+                        <block type="variables_set" id="BkVlE)L0:bREEaj5O[nc">
+                          <field name="VAR" id="j3/d.QT85aC$:.b(?S{z">move side</field>
                           <value name="VALUE">
-                            <block type="getObjDirection" id="MzzYxUh)fx#!c4T]m,.,">
-                              <field name="COORD">HORIZONTAL</field>
-                              <value name="TARGETOBJ">
-                                <shadow type="objectList" id="EFqAM]Z/}Ex$egX!Sse+">
-                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                            <block type="math_arithmetic" id="9tTPh%yLr;R/s3[CXDpw" inline="false">
+                              <field name="OP">ADD</field>
+                              <value name="A">
+                                <shadow type="math_number" id="8c04-b~LzW,kks+PzR,C">
+                                  <field name="NUM">2</field>
                                 </shadow>
-                                <block type="getActiveCamera" id="$JdOC?@l8vGsG;XEedG-"></block>
-                              </value>
-                            </block>
-                          </value>
-                          <next>
-                            <block type="variables_set" id="?ayMbRa=/C}3C[RL/XPG">
-                              <field name="VAR" id="Rq2D?pn(}trbviHRy3Nw">dir vector side</field>
-                              <value name="VALUE">
-                                <block type="vectorMath" id="AKWfl=9:M/|h^V!{mGGF">
-                                  <field name="VALUE_NAME">ROTATE</field>
-                                  <value name="VECTOR">
-                                    <block type="variables_get" id="Idj3*cC!j{ku@:-oAuM1">
-                                      <field name="VAR" id="2oj|+Q,rv1jk,~GZfH}2">dir vector forward</field>
-                                    </block>
-                                  </value>
-                                  <value name="VECTOR2">
-                                    <block type="createVector" id="9hh;:R,.d}6T@33eu|9y">
-                                      <value name="X">
-                                        <shadow type="math_number" id="N1k@$J]91$_jc;7E[cpb">
-                                          <field name="NUM">0</field>
-                                        </shadow>
-                                      </value>
-                                      <value name="Y">
-                                        <shadow type="math_number" id="bF?5-n}~}]|9P=(/91ul">
-                                          <field name="NUM">0</field>
-                                        </shadow>
-                                      </value>
-                                      <value name="Z">
-                                        <shadow type="math_number" id="@3Ib2!1d|,z?r,WMEgAN">
-                                          <field name="NUM">-90</field>
-                                        </shadow>
-                                      </value>
+                                <block type="getGamepadProp" id="Ew*c*^`ZZZKsFlIyLOH$">
+                                  <field name="PROPERTY">AXIS</field>
+                                  <field name="CONTROL_INDEX">0</field>
+                                  <value name="INDEX">
+                                    <shadow type="math_number" id="Dv%+3,S+O.UCWqBbs_]+">
+                                      <field name="NUM">2</field>
+                                    </shadow>
+                                    <block type="xrControllerProp" id="-ceK.9U_]6vRAc84_!a$">
+                                      <field name="PROPERTY">GAMEPAD_INDEX</field>
                                     </block>
                                   </value>
                                 </block>
                               </value>
+                              <value name="B">
+                                <shadow type="math_number" id="l)zpqaC@qwg!E?=VIaf|">
+                                  <field name="NUM">2</field>
+                                </shadow>
+                                <block type="getGamepadProp" id="ReM6-VglLzfi7Im@44rW">
+                                  <field name="PROPERTY">AXIS</field>
+                                  <field name="CONTROL_INDEX">2</field>
+                                  <value name="INDEX">
+                                    <shadow type="math_number" id="qpKk}/)9%IhU8Tj[#G(G">
+                                      <field name="NUM">2</field>
+                                    </shadow>
+                                    <block type="xrControllerProp" id="-ur={~wNjh6Cd!k$kO[*">
+                                      <field name="PROPERTY">GAMEPAD_INDEX</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="variables_set" id="@/Vtro-?0~Y_3{QgU+8p">
+                              <field name="VAR" id="2oj|+Q,rv1jk,~GZfH}2">dir vector forward</field>
+                              <value name="VALUE">
+                                <block type="getObjDirection" id="MzzYxUh)fx#!c4T]m,.,">
+                                  <field name="COORD">HORIZONTAL</field>
+                                  <value name="TARGETOBJ">
+                                    <shadow type="objectList" id="EFqAM]Z/}Ex$egX!Sse+">
+                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                    </shadow>
+                                    <block type="getActiveCamera" id="$JdOC?@l8vGsG;XEedG-"></block>
+                                  </value>
+                                </block>
+                              </value>
                               <next>
-                                <block type="variables_set" id="CcKj?`E3502{-+/V:;lz">
-                                  <field name="VAR" id="ERucHEkk,9CGs?o?.zqp">dir vector</field>
+                                <block type="variables_set" id="?ayMbRa=/C}3C[RL/XPG">
+                                  <field name="VAR" id="Rq2D?pn(}trbviHRy3Nw">dir vector side</field>
                                   <value name="VALUE">
-                                    <block type="vectorMath" id="8N4ObT!lA0AnwT?T7k4p" inline="false">
-                                      <field name="VALUE_NAME">ADD</field>
+                                    <block type="vectorMath" id="AKWfl=9:M/|h^V!{mGGF">
+                                      <field name="VALUE_NAME">ROTATE</field>
                                       <value name="VECTOR">
-                                        <block type="vectorMath" id="3a@anF9K[Q3{_kM2_K5e">
-                                          <field name="VALUE_NAME">MULTIPLY</field>
-                                          <value name="VECTOR">
-                                            <block type="variables_get" id="DRV#h8vZ:=y`9r;MeLG/">
-                                              <field name="VAR" id="2oj|+Q,rv1jk,~GZfH}2">dir vector forward</field>
-                                            </block>
-                                          </value>
-                                          <value name="VECTOR2">
-                                            <block type="variables_get" id="p#AhY^3TvHW.*lP+n$JX">
-                                              <field name="VAR" id="-.h88?$85U|3}LvR2UU)">move forward</field>
-                                            </block>
-                                          </value>
+                                        <block type="variables_get" id="Idj3*cC!j{ku@:-oAuM1">
+                                          <field name="VAR" id="2oj|+Q,rv1jk,~GZfH}2">dir vector forward</field>
                                         </block>
                                       </value>
                                       <value name="VECTOR2">
-                                        <block type="vectorMath" id="2r.HzFiF|WyB5XRTvzwa">
-                                          <field name="VALUE_NAME">MULTIPLY</field>
-                                          <value name="VECTOR">
-                                            <block type="variables_get" id="d^W(KCZ]$t6kEV1*4EX,">
-                                              <field name="VAR" id="Rq2D?pn(}trbviHRy3Nw">dir vector side</field>
-                                            </block>
+                                        <block type="createVector" id="9hh;:R,.d}6T@33eu|9y">
+                                          <value name="X">
+                                            <shadow type="math_number" id="N1k@$J]91$_jc;7E[cpb">
+                                              <field name="NUM">0</field>
+                                            </shadow>
                                           </value>
-                                          <value name="VECTOR2">
-                                            <block type="variables_get" id="{2=q0(**g_`3;eFLG@N/">
-                                              <field name="VAR" id="j3/d.QT85aC$:.b(?S{z">move side</field>
-                                            </block>
+                                          <value name="Y">
+                                            <shadow type="math_number" id="bF?5-n}~}]|9P=(/91ul">
+                                              <field name="NUM">0</field>
+                                            </shadow>
+                                          </value>
+                                          <value name="Z">
+                                            <shadow type="math_number" id="@3Ib2!1d|,z?r,WMEgAN">
+                                              <field name="NUM">-90</field>
+                                            </shadow>
                                           </value>
                                         </block>
                                       </value>
                                     </block>
                                   </value>
                                   <next>
-                                    <block type="variables_set" id="/tw@bjz2jKBv)6mIeFGx">
-                                      <field name="VAR" id="bo4wB^/{z~m`*yjQ5jl!">move speed</field>
+                                    <block type="variables_set" id="CcKj?`E3502{-+/V:;lz">
+                                      <field name="VAR" id="ERucHEkk,9CGs?o?.zqp">dir vector</field>
                                       <value name="VALUE">
-                                        <block type="math_arithmetic" id="jc41r4uE[F_n|l^Kz9dR">
-                                          <field name="OP">MULTIPLY</field>
-                                          <value name="A">
-                                            <shadow type="math_number" id="Cso-1:uOp`K_vIyctvlH">
-                                              <field name="NUM">2</field>
-                                            </shadow>
-                                            <block type="elapsed" id="g{PR]#Uc@Tqob]b@u]~z"></block>
-                                          </value>
-                                          <value name="B">
-                                            <shadow type="math_number" id="rsINNZ/8@fe~bv,n!~~i">
-                                              <field name="NUM">1.5</field>
-                                            </shadow>
-                                          </value>
-                                        </block>
-                                      </value>
-                                      <next>
-                                        <block type="variables_set" id="BSY%asIJ(OS55C$DgwR`">
-                                          <field name="VAR" id="ERucHEkk,9CGs?o?.zqp">dir vector</field>
-                                          <value name="VALUE">
-                                            <block type="vectorMath" id="Q%ea]3GtqAh==N^$|%*V">
+                                        <block type="vectorMath" id="8N4ObT!lA0AnwT?T7k4p" inline="false">
+                                          <field name="VALUE_NAME">ADD</field>
+                                          <value name="VECTOR">
+                                            <block type="vectorMath" id="3a@anF9K[Q3{_kM2_K5e">
                                               <field name="VALUE_NAME">MULTIPLY</field>
                                               <value name="VECTOR">
-                                                <block type="variables_get" id="K+Gds07iuS;/24BnbJbI">
-                                                  <field name="VAR" id="ERucHEkk,9CGs?o?.zqp">dir vector</field>
+                                                <block type="variables_get" id="DRV#h8vZ:=y`9r;MeLG/">
+                                                  <field name="VAR" id="2oj|+Q,rv1jk,~GZfH}2">dir vector forward</field>
                                                 </block>
                                               </value>
                                               <value name="VECTOR2">
-                                                <block type="variables_get" id="k(@7[}2#O4h$$U6N=j7p">
-                                                  <field name="VAR" id="bo4wB^/{z~m`*yjQ5jl!">move speed</field>
+                                                <block type="variables_get" id="p#AhY^3TvHW.*lP+n$JX">
+                                                  <field name="VAR" id="-.h88?$85U|3}LvR2UU)">move forward</field>
                                                 </block>
                                               </value>
                                             </block>
                                           </value>
+                                          <value name="VECTOR2">
+                                            <block type="vectorMath" id="2r.HzFiF|WyB5XRTvzwa">
+                                              <field name="VALUE_NAME">MULTIPLY</field>
+                                              <value name="VECTOR">
+                                                <block type="variables_get" id="d^W(KCZ]$t6kEV1*4EX,">
+                                                  <field name="VAR" id="Rq2D?pn(}trbviHRy3Nw">dir vector side</field>
+                                                </block>
+                                              </value>
+                                              <value name="VECTOR2">
+                                                <block type="variables_get" id="{2=q0(**g_`3;eFLG@N/">
+                                                  <field name="VAR" id="j3/d.QT85aC$:.b(?S{z">move side</field>
+                                                </block>
+                                              </value>
+                                            </block>
+                                          </value>
+                                        </block>
+                                      </value>
+                                      <next>
+                                        <block type="variables_set" id="/tw@bjz2jKBv)6mIeFGx">
+                                          <field name="VAR" id="bo4wB^/{z~m`*yjQ5jl!">move speed</field>
+                                          <value name="VALUE">
+                                            <block type="math_arithmetic" id="jc41r4uE[F_n|l^Kz9dR">
+                                              <field name="OP">MULTIPLY</field>
+                                              <value name="A">
+                                                <shadow type="math_number" id="Cso-1:uOp`K_vIyctvlH">
+                                                  <field name="NUM">2</field>
+                                                </shadow>
+                                                <block type="elapsed" id="g{PR]#Uc@Tqob]b@u]~z"></block>
+                                              </value>
+                                              <value name="B">
+                                                <shadow type="math_number" id="rsINNZ/8@fe~bv,n!~~i">
+                                                  <field name="NUM">1.5</field>
+                                                </shadow>
+                                              </value>
+                                            </block>
+                                          </value>
                                           <next>
-                                            <block type="variables_set" id="]IoXv62Ge#2zs7MhH/jI">
-                                              <field name="VAR" id="$Zp.;QZ*r6wCsp4-bNux">ray cast position</field>
+                                            <block type="variables_set" id="BSY%asIJ(OS55C$DgwR`">
+                                              <field name="VAR" id="ERucHEkk,9CGs?o?.zqp">dir vector</field>
                                               <value name="VALUE">
-                                                <block type="vectorMath" id="4)/_v619{t2!BMCQK/D-">
-                                                  <field name="VALUE_NAME">ADD</field>
+                                                <block type="vectorMath" id="Q%ea]3GtqAh==N^$|%*V">
+                                                  <field name="VALUE_NAME">MULTIPLY</field>
                                                   <value name="VECTOR">
-                                                    <block type="getObjTransform" id="?_P!tYKK#-6^{Vyub|GJ">
-                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
-                                                      <field name="MODE">position</field>
-                                                      <field name="COORD">xyz</field>
-                                                      <value name="TARGETOBJ">
-                                                        <shadow type="objectList" id="GRQb5*_2Q/w1{T~)SYB{">
-                                                          <field name="FIELDNAME">&lt;none&gt;</field>
-                                                        </shadow>
-                                                        <block type="xrCameraControlObject" id="$-pQr$@7V@+@lFvaL9{4"></block>
-                                                      </value>
+                                                    <block type="variables_get" id="K+Gds07iuS;/24BnbJbI">
+                                                      <field name="VAR" id="ERucHEkk,9CGs?o?.zqp">dir vector</field>
                                                     </block>
                                                   </value>
                                                   <value name="VECTOR2">
-                                                    <block type="variables_get" id="LFa#T`]iJwZOV![nR6[l">
-                                                      <field name="VAR" id="ERucHEkk,9CGs?o?.zqp">dir vector</field>
+                                                    <block type="variables_get" id="k(@7[}2#O4h$$U6N=j7p">
+                                                      <field name="VAR" id="bo4wB^/{z~m`*yjQ5jl!">move speed</field>
                                                     </block>
                                                   </value>
                                                 </block>
                                               </value>
                                               <next>
-                                                <block type="setVectorValue" id="F=Gj#ofieADj-TZFt7$:">
-                                                  <field name="VALUE_NAME">Z</field>
-                                                  <value name="VECTOR">
-                                                    <block type="variables_get" id="/v/fwJS|^;5!3/;u1[NQ">
-                                                      <field name="VAR" id="$Zp.;QZ*r6wCsp4-bNux">ray cast position</field>
-                                                    </block>
-                                                  </value>
+                                                <block type="variables_set" id="]IoXv62Ge#2zs7MhH/jI">
+                                                  <field name="VAR" id="$Zp.;QZ*r6wCsp4-bNux">ray cast position</field>
                                                   <value name="VALUE">
-                                                    <shadow type="math_number" id="HxxtXcDea+~X(T,q3C*+">
-                                                      <field name="NUM">2</field>
-                                                    </shadow>
-                                                  </value>
-                                                  <next>
-                                                    <block type="variables_set" id=",$DK,yQA2+AaEp5B[`TE">
-                                                      <field name="VAR" id="mz!$hZRVPq;i*P$p!|ar">raycast result</field>
-                                                      <value name="VALUE">
-                                                        <block type="raycast" id="9yS=;E=TZJ,%#7:NV[q8">
-                                                          <field name="ONLY_VISIBLE">FALSE</field>
-                                                          <value name="FROM">
-                                                            <block type="variables_get" id="ooud7Sl,e?:!7P%4ohBU">
-                                                              <field name="VAR" id="$Zp.;QZ*r6wCsp4-bNux">ray cast position</field>
-                                                            </block>
-                                                          </value>
-                                                          <value name="DIRECTION">
-                                                            <block type="createVector" id="1/.-VB7S/{fr_r3Ke^;b">
-                                                              <value name="X">
-                                                                <shadow type="math_number" id="W|Ce5=cG;(ToG;I9f3`}">
-                                                                  <field name="NUM">0</field>
-                                                                </shadow>
-                                                              </value>
-                                                              <value name="Y">
-                                                                <shadow type="math_number" id="R05`uUGsT!-UIlS6^Em2">
-                                                                  <field name="NUM">0</field>
-                                                                </shadow>
-                                                              </value>
-                                                              <value name="Z">
-                                                                <shadow type="math_number" id="t4N[9{rhblkv=,L(itV}">
-                                                                  <field name="NUM">-1</field>
-                                                                </shadow>
-                                                              </value>
-                                                            </block>
-                                                          </value>
-                                                          <value name="INTERSECT_OBJS">
-                                                            <shadow type="objectList" id="$owm_z@:ruiuxg]Hq0HB">
-                                                              <field name="FIELDNAME">coliision</field>
+                                                    <block type="vectorMath" id="4)/_v619{t2!BMCQK/D-">
+                                                      <field name="VALUE_NAME">ADD</field>
+                                                      <value name="VECTOR">
+                                                        <block type="getObjTransform" id="?_P!tYKK#-6^{Vyub|GJ">
+                                                          <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+                                                          <field name="MODE">position</field>
+                                                          <field name="COORD">xyz</field>
+                                                          <value name="TARGETOBJ">
+                                                            <shadow type="objectList" id="GRQb5*_2Q/w1{T~)SYB{">
+                                                              <field name="FIELDNAME">&lt;none&gt;</field>
                                                             </shadow>
+                                                            <block type="xrCameraControlObject" id="$-pQr$@7V@+@lFvaL9{4"></block>
                                                           </value>
                                                         </block>
                                                       </value>
+                                                      <value name="VECTOR2">
+                                                        <block type="variables_get" id="LFa#T`]iJwZOV![nR6[l">
+                                                          <field name="VAR" id="ERucHEkk,9CGs?o?.zqp">dir vector</field>
+                                                        </block>
+                                                      </value>
+                                                    </block>
+                                                  </value>
+                                                  <next>
+                                                    <block type="setVectorValue" id="F=Gj#ofieADj-TZFt7$:">
+                                                      <field name="VALUE_NAME">Z</field>
+                                                      <value name="VECTOR">
+                                                        <block type="variables_get" id="/v/fwJS|^;5!3/;u1[NQ">
+                                                          <field name="VAR" id="$Zp.;QZ*r6wCsp4-bNux">ray cast position</field>
+                                                        </block>
+                                                      </value>
+                                                      <value name="VALUE">
+                                                        <shadow type="math_number" id="HxxtXcDea+~X(T,q3C*+">
+                                                          <field name="NUM">2</field>
+                                                        </shadow>
+                                                      </value>
                                                       <next>
-                                                        <block type="controls_if" id="|?HlcO2g7?jYAep9N~,F">
-                                                          <value name="IF0">
-                                                            <block type="logic_negate" id="-HME.7o?HkjUj)[+x+Dr">
-                                                              <value name="BOOL">
-                                                                <block type="lists_isEmpty" id="s(!o)*06TS1k?J2VG*=+">
-                                                                  <value name="VALUE">
-                                                                    <block type="variables_get" id="C,$+;x|KY3Oy$FGp;G5D">
-                                                                      <field name="VAR" id="mz!$hZRVPq;i*P$p!|ar">raycast result</field>
+                                                        <block type="variables_set" id=",$DK,yQA2+AaEp5B[`TE">
+                                                          <field name="VAR" id="mz!$hZRVPq;i*P$p!|ar">raycast result</field>
+                                                          <value name="VALUE">
+                                                            <block type="raycast" id="9yS=;E=TZJ,%#7:NV[q8">
+                                                              <field name="ONLY_VISIBLE">FALSE</field>
+                                                              <value name="FROM">
+                                                                <block type="variables_get" id="ooud7Sl,e?:!7P%4ohBU">
+                                                                  <field name="VAR" id="$Zp.;QZ*r6wCsp4-bNux">ray cast position</field>
+                                                                </block>
+                                                              </value>
+                                                              <value name="DIRECTION">
+                                                                <block type="createVector" id="1/.-VB7S/{fr_r3Ke^;b">
+                                                                  <value name="X">
+                                                                    <shadow type="math_number" id="W|Ce5=cG;(ToG;I9f3`}">
+                                                                      <field name="NUM">0</field>
+                                                                    </shadow>
+                                                                  </value>
+                                                                  <value name="Y">
+                                                                    <shadow type="math_number" id="R05`uUGsT!-UIlS6^Em2">
+                                                                      <field name="NUM">0</field>
+                                                                    </shadow>
+                                                                  </value>
+                                                                  <value name="Z">
+                                                                    <shadow type="math_number" id="t4N[9{rhblkv=,L(itV}">
+                                                                      <field name="NUM">-1</field>
+                                                                    </shadow>
+                                                                  </value>
+                                                                </block>
+                                                              </value>
+                                                              <value name="INTERSECT_OBJS">
+                                                                <shadow type="objectList" id="$owm_z@:ruiuxg]Hq0HB">
+                                                                  <field name="FIELDNAME">coliision</field>
+                                                                </shadow>
+                                                              </value>
+                                                            </block>
+                                                          </value>
+                                                          <next>
+                                                            <block type="controls_if" id="|?HlcO2g7?jYAep9N~,F">
+                                                              <value name="IF0">
+                                                                <block type="logic_negate" id="-HME.7o?HkjUj)[+x+Dr">
+                                                                  <value name="BOOL">
+                                                                    <block type="lists_isEmpty" id="s(!o)*06TS1k?J2VG*=+">
+                                                                      <value name="VALUE">
+                                                                        <block type="variables_get" id="C,$+;x|KY3Oy$FGp;G5D">
+                                                                          <field name="VAR" id="mz!$hZRVPq;i*P$p!|ar">raycast result</field>
+                                                                        </block>
+                                                                      </value>
                                                                     </block>
                                                                   </value>
                                                                 </block>
                                                               </value>
-                                                            </block>
-                                                          </value>
-                                                          <statement name="DO0">
-                                                            <block type="setObjTransform" id="1rt-,tgK$60fghN5?jHI">
-                                                              <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="true" useworldspace="false"></mutation>
-                                                              <field name="MODE">position</field>
-                                                              <field name="OFFSET">TRUE</field>
-                                                              <value name="TARGETOBJ">
-                                                                <shadow type="objectList" id="C~p.JprQ~:Tc)1%0F9d|">
-                                                                  <field name="FIELDNAME">&lt;none&gt;</field>
-                                                                </shadow>
-                                                                <block type="xrCameraControlObject" id="+HA*_Z@CJZll;w!n|Alg"></block>
-                                                              </value>
-                                                              <value name="USE_VECTOR">
-                                                                <block type="variables_get" id="E01,On[7@k-iv_E,quQ:">
-                                                                  <field name="VAR" id="ERucHEkk,9CGs?o?.zqp">dir vector</field>
+                                                              <statement name="DO0">
+                                                                <block type="setObjTransform" id="1rt-,tgK$60fghN5?jHI">
+                                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="true" useworldspace="false"></mutation>
+                                                                  <field name="MODE">position</field>
+                                                                  <field name="OFFSET">TRUE</field>
+                                                                  <value name="TARGETOBJ">
+                                                                    <shadow type="objectList" id="C~p.JprQ~:Tc)1%0F9d|">
+                                                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                                                    </shadow>
+                                                                    <block type="xrCameraControlObject" id="+HA*_Z@CJZll;w!n|Alg"></block>
+                                                                  </value>
+                                                                  <value name="USE_VECTOR">
+                                                                    <block type="variables_get" id="E01,On[7@k-iv_E,quQ:">
+                                                                      <field name="VAR" id="ERucHEkk,9CGs?o?.zqp">dir vector</field>
+                                                                    </block>
+                                                                  </value>
                                                                 </block>
-                                                              </value>
+                                                              </statement>
                                                             </block>
-                                                          </statement>
+                                                          </next>
                                                         </block>
                                                       </next>
                                                     </block>
@@ -541,64 +538,89 @@
                         </block>
                       </next>
                     </block>
-                  </next>
-                </block>
-              </statement>
-              <next>
-                <block type="controls_if" id="rgE3C(xei-411)x2SnUk">
-                  <value name="IF0">
-                    <block type="logic_compare" id="*RehIkM:_ZBRp4qXJ61w">
-                      <field name="OP">EQ</field>
-                      <value name="A">
-                        <block type="gamepadIndex" id="e:|{U354T;Pd6!o[/C~]"></block>
-                      </value>
-                      <value name="B">
-                        <block type="math_number" id="WO4Pq,yn*hVFE47:ovv(">
-                          <field name="NUM">1</field>
-                        </block>
-                      </value>
-                    </block>
-                  </value>
-                  <statement name="DO0">
-                    <block type="whenClicked" id="{H{Jt.Qs[p%U02u0`X}(" inline="false">
-                      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
-                      <field name="X_RAY">FALSE</field>
-                      <field name="DOUBLE_CLICK">FALSE</field>
-                      <field name="LEFT_BUTTON">TRUE</field>
-                      <field name="MIDDLE_BUTTON">TRUE</field>
-                      <field name="RIGHT_BUTTON">TRUE</field>
-                      <value name="VALUE">
-                        <shadow type="objectList" id="LWTnv~k~}eXI=3)Wx%d*">
-                          <field name="FIELDNAME">&lt;none&gt;</field>
-                        </shadow>
-                        <block type="getGamepadProp" id="lUyZLrZvmO+4Sx1NA[X?">
-                          <field name="PROPERTY">AXIS</field>
-                          <field name="CONTROL_INDEX">0</field>
-                          <value name="INDEX">
-                            <shadow type="math_number" id="Dv%+3,S+O.UCWqBbs_]+">
-                              <field name="NUM">2</field>
-                            </shadow>
-                            <block type="xrControllerProp" id="|dVq$ipONQd9w45yqN,Z">
-                              <field name="PROPERTY">GAMEPAD_INDEX</field>
+                  </statement>
+                  <next>
+                    <block type="controls_if" id="rgE3C(xei-411)x2SnUk">
+                      <value name="IF0">
+                        <block type="logic_compare" id="*RehIkM:_ZBRp4qXJ61w">
+                          <field name="OP">EQ</field>
+                          <value name="A">
+                            <block type="gamepadIndex" id="e:|{U354T;Pd6!o[/C~]"></block>
+                          </value>
+                          <value name="B">
+                            <block type="math_number" id="WO4Pq,yn*hVFE47:ovv(">
+                              <field name="NUM">1</field>
                             </block>
                           </value>
                         </block>
                       </value>
-                      <statement name="DO">
-                        <block type="hide" id="Sa`:tlnEd!]5=VhlT*R4">
+                      <statement name="DO0">
+                        <block type="variables_set" id="BJ[T5=I|1SmW(3]~kQ*L">
+                          <field name="VAR" id="/1J858RY/]-Br.Ko@o^(">event</field>
                           <value name="VALUE">
-                            <shadow type="objectList" id="+Fld`*3:[lmnD9P!treq">
-                              <field name="FIELDNAME">control</field>
-                            </shadow>
+                            <block type="getGamepadProp" id="lUyZLrZvmO+4Sx1NA[X?">
+                              <field name="PROPERTY">BUTTON</field>
+                              <field name="CONTROL_INDEX">0</field>
+                              <value name="INDEX">
+                                <shadow type="math_number" id="Dv%+3,S+O.UCWqBbs_]+">
+                                  <field name="NUM">2</field>
+                                </shadow>
+                                <block type="xrControllerProp" id="|dVq$ipONQd9w45yqN,Z">
+                                  <field name="PROPERTY">GAMEPAD_INDEX</field>
+                                </block>
+                              </value>
+                            </block>
                           </value>
+                          <next>
+                            <block type="controls_if" id="u4#9pdCs)pJudWjh@dd|">
+                              <value name="IF0">
+                                <block type="logic_compare" id="5g%iW]6dE=sK8Fe_3SUH">
+                                  <field name="OP">GT</field>
+                                  <value name="A">
+                                    <block type="variables_get" id="vvn-P+nz.3~*@z]6Kxb4">
+                                      <field name="VAR" id="/1J858RY/]-Br.Ko@o^(">event</field>
+                                    </block>
+                                  </value>
+                                  <value name="B">
+                                    <block type="math_number" id="PF7%zs$CEXqo!P9l;scF">
+                                      <field name="NUM">0</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <statement name="DO0">
+                                <block type="hide" id="^{:H3V]kKhXWH{05ONNU">
+                                  <value name="VALUE">
+                                    <shadow type="objectList" id="JZ)ZeTNKZ%y`fQHLEPJi">
+                                      <field name="FIELDNAME">control</field>
+                                    </shadow>
+                                  </value>
+                                </block>
+                              </statement>
+                            </block>
+                          </next>
                         </block>
                       </statement>
                     </block>
-                  </statement>
+                  </next>
                 </block>
-              </next>
+              </statement>
             </block>
           </statement>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="|0kQKK=|X*UNW*9Q8b]Y" x="390" y="350">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="ej7iv-}?Qj-LfZCOf?e?">
+          <field name="TEXT">enter_vr_button</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="procedures_callnoreturn" id="lx:$x/iG-aL{JaOnTPeA">
+          <mutation name="VR_INIT"></mutation>
         </block>
       </statement>
     </block>
