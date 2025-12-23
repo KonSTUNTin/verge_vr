@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1137.5047500361832" scrolly="-190.11624193378339" scale="0.8552831584330554">
+  <tab name="main" type="CommonTab" active="true" scrollx="1066.8641357421875" scrolly="-215.06179809570312" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -16,10 +16,10 @@
       <variable id="@bD~%cJFHMDKf4x;|YL^">prevStickMoved</variable>
       <variable id="/1J858RY/]-Br.Ko@o^(">visibility</variable>
       <variable id="-.h88?$85U|3}LvR2UU)">move forward</variable>
-      <variable id="(^kgO;96go3/6PFc2-@X">YY</variable>
       <variable id="j3/d.QT85aC$:.b(?S{z">move side</variable>
-      <variable id="#;D_2@.^um63()@uxktH">XX</variable>
+      <variable id="(^kgO;96go3/6PFc2-@X">YY</variable>
       <variable id="2oj|+Q,rv1jk,~GZfH}2">dir vector forward</variable>
+      <variable id="#;D_2@.^um63()@uxktH">XX</variable>
       <variable id="Rq2D?pn(}trbviHRy3Nw">dir vector side</variable>
       <variable id="ERucHEkk,9CGs?o?.zqp">dir vector</variable>
       <variable id="bo4wB^/{z~m`*yjQ5jl!">move speed</variable>
@@ -178,7 +178,7 @@
       <field name="VAR" id="RfFqhuISKzBiGPK8W+}H">st</field>
       <value name="VALUE">
         <block type="lists_create_with" id="Mc8/l21S1Q^7gmtAL[ho">
-          <mutation items="2"></mutation>
+          <mutation items="3"></mutation>
           <value name="ADD0">
             <block type="groupList" id="{T74ioq0E;/Xq7UT$(W+">
               <field name="FIELDNAME">state_0</field>
@@ -187,6 +187,11 @@
           <value name="ADD1">
             <block type="groupList" id=")=Y5xpwmdq,~V?D5uq3V">
               <field name="FIELDNAME">state_1</field>
+            </block>
+          </value>
+          <value name="ADD2">
+            <block type="groupList" id="bgiM(:ksWK8:U+W~OKZ=">
+              <field name="FIELDNAME">state_3</field>
             </block>
           </value>
         </block>
