@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="854.7477461416292" scrolly="-943.0335238414441" scale="0.9547554625944001">
+  <tab name="main" type="CommonTab" active="true" scrollx="819.7931169344616" scrolly="-872.0352915395125" scale="0.9053083793033432">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="@bD~%cJFHMDKf4x;|YL^">prevStickMoved</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -689,7 +689,7 @@
                                                       <field name="FIELDNAME">state_0</field>
                                                     </shadow>
                                                     <block type="objectList" id="Vg?U{TB0?qRPA0C@`Dnk">
-                                                      <field name="FIELDNAME">control</field>
+                                                      <field name="FIELDNAME">state_0</field>
                                                     </block>
                                                   </value>
                                                 </block>
@@ -700,8 +700,14 @@
                                                     <shadow type="objectList" id="B,VGIMB~?z(:V|q;8X~z">
                                                       <field name="FIELDNAME">&lt;none&gt;</field>
                                                     </shadow>
-                                                    <block type="objectList" id="Mu0-CzEs:,rcPJ7Bv_^*">
-                                                      <field name="FIELDNAME">control</field>
+                                                    <block type="getObjectsFrom" id="!Y]FX0E+J_LL1VvC1r(6">
+                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usenamefilter="false" useid="false"></mutation>
+                                                      <field name="TYPE">ALL</field>
+                                                      <value name="OBJ">
+                                                        <block type="objectList" id="Mu0-CzEs:,rcPJ7Bv_^*">
+                                                          <field name="FIELDNAME">state_0</field>
+                                                        </block>
+                                                      </value>
                                                     </block>
                                                   </value>
                                                 </block>
@@ -712,8 +718,14 @@
                                                     <shadow type="objectList" id="}|FBG2=Ub?iXv=xLi{bM">
                                                       <field name="FIELDNAME">control</field>
                                                     </shadow>
-                                                    <block type="objectList" id="v7/d8EiDnC^VC=HhSE_N">
-                                                      <field name="FIELDNAME">control</field>
+                                                    <block type="getObjectsFrom" id="HIqH[4rV5J2|YoAzT{9@">
+                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usenamefilter="false" useid="false"></mutation>
+                                                      <field name="TYPE">ALL</field>
+                                                      <value name="OBJ">
+                                                        <block type="objectList" id="V:hH(3`cdJ;.x,zy@{5p">
+                                                          <field name="FIELDNAME">state_0</field>
+                                                        </block>
+                                                      </value>
                                                     </block>
                                                   </value>
                                                 </block>
