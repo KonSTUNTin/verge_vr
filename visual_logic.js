@@ -1381,21 +1381,20 @@ registerEveryFrame(function() {
                 setObjTransform(xrCameraControlObject(), false, 'position', dir_vector, true);
             }
         }
-        if ((_pGlob.gamepadIndex || 0) == 1) {
+        if (gamepadIndex == 1) {
+            // Правый стик: переключение видимости
+            var rightStickX = getGamepadProp(xrControllerProp('GAMEPAD_INDEX'), 'AXIS', '2');
+            var rightStickY = getGamepadProp(xrControllerProp('GAMEPAD_INDEX'), 'AXIS', '3');
 
-            var buttonPressed = getGamepadProp(
-                xrControllerProp('GAMEPAD_INDEX'),
-                'AXIS',
-                '0' // кнопка стика / primary
-            );
+            var threshold = 0.5; // минимальное движение для срабатывания
 
-            // обработка нажатия (не удержания)
-            if ((buttonPressed !=0) && !prevButtonState) {
+            if ((Math.abs(rightStickX) > threshold || Math.abs(rightStickY) > threshold) && !prevStickMoved) {
                 controlVisible = !controlVisible;
                 changeVis('control', controlVisible);
+                prevStickMoved = true;
+            } else if (Math.abs(rightStickX) < threshold && Math.abs(rightStickY) < threshold) {
+                prevStickMoved = false; // сброс состояния, когда стик вернулся в центр
             }
-
-            prevButtonState = buttonPressed;
         }
     });
 });
