@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="856.0501564697465" scrolly="-962.0745029037844" scale="0.8891969989185502">
+  <tab name="main" type="CommonTab" active="true" scrollx="841.4026389540828" scrolly="-867.4091133019211" scale="0.8627028715713811">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
       <variable id="-.h88?$85U|3}LvR2UU)">move forward</variable>
@@ -643,7 +643,7 @@
                           <field name="VAR" id="j3/d.QT85aC$:.b(?S{z">move side</field>
                           <value name="VALUE">
                             <block type="math_number" id="a37}wPhw4wMR3pa:MR@|">
-                              <field name="NUM">0</field>
+                              <field name="NUM">1</field>
                             </block>
                           </value>
                           <next>
