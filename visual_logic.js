@@ -1386,7 +1386,7 @@ registerEveryFrame(function() {
             var buttonPressed = getGamepadProp(
                 xrControllerProp('GAMEPAD_INDEX'),
                 'AXIS',
-                0 // кнопка стика / primary
+                '0' // кнопка стика / primary
             );
 
             // обработка нажатия (не удержания)
