@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="873.7568359375" scrolly="-577.2597045898433" scale="1">
+  <tab name="main" type="CommonTab" active="true" scrollx="854.7457275390625" scrolly="-526.1315307617188" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -285,7 +285,7 @@
                                       </value>
                                       <statement name="DO0">
                                         <block type="setObjTransform" id="4)OQ~Ryg7]YAMe{!G6[Z">
-                                          <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="true" useworldspace="false"></mutation>
+                                          <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="true" useworldspace="true"></mutation>
                                           <field name="MODE">position</field>
                                           <field name="OFFSET">FALSE</field>
                                           <value name="TARGETOBJ">
@@ -310,7 +310,7 @@
                                           </value>
                                           <next>
                                             <block type="setObjTransform" id="L_{O..Pg?[`sOzH^ePF.">
-                                              <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="true" useworldspace="false"></mutation>
+                                              <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="true" useworldspace="true"></mutation>
                                               <field name="MODE">rotation</field>
                                               <field name="OFFSET">FALSE</field>
                                               <value name="TARGETOBJ">
@@ -1077,7 +1077,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="wall logic" type="CommonTab" active="false" scrollx="258.61505545837645" scrolly="159.68726545238678" scale="0.8664794049783022">
+  <tab name="wall logic" type="CommonTab" active="false" scrollx="428.35650634765625" scrolly="22.036514282226562" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="(mME~oaSSeo}6O,?wKKr">controls</variable>
       <variable id="fj/rf#:.qcKO]`XV.u0M">walls</variable>
