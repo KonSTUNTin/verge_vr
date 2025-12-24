@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1963.0118742445557" scrolly="-283.78337010586665" scale="1">
+  <tab name="main" type="CommonTab" active="true" scrollx="1887.1624039673343" scrolly="-252.77408114580658" scale="0.9443108706561119">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -186,26 +186,21 @@
             </block>
           </value>
           <value name="ADD1">
-            <block type="lists_create_with" id="WoY93;,0]dDIh;L46Q:4">
-              <mutation items="2"></mutation>
-              <value name="ADD0">
-                <block type="groupList" id="U2ddOoIl_D=I;#?V=B22">
-                  <field name="FIELDNAME">highlights</field>
-                </block>
-              </value>
-              <value name="ADD1">
-                <block type="groupList" id="47lIO{vSv$ZSKdwh/bf(">
-                  <field name="FIELDNAME">tutorial</field>
-                </block>
-              </value>
+            <block type="groupList" id="47lIO{vSv$ZSKdwh/bf(">
+              <field name="FIELDNAME">tutorial_1</field>
             </block>
           </value>
           <value name="ADD2">
+            <block type="groupList" id="z?Q7P~Bx[Dc:8hx_xbVC">
+              <field name="FIELDNAME">tutorial_2</field>
+            </block>
+          </value>
+          <value name="ADD3">
             <block type="groupList" id="?7fifuiGrapr0Kbo[$YL">
               <field name="FIELDNAME">train</field>
             </block>
           </value>
-          <value name="ADD3">
+          <value name="ADD4">
             <block type="groupList" id="N9hw9`y{aYi7H}jYA/rL">
               <field name="FIELDNAME">red_line</field>
             </block>
@@ -1008,7 +1003,7 @@
       </value>
     </block>
   </tab>
-  <tab name="wall logic" type="CommonTab" active="false" scrollx="463.49878817796707" scrolly="103.71015477180481" scale="0.9961041571964034">
+  <tab name="wall logic" type="CommonTab" active="false" scrollx="463.49878817796707" scrolly="-109.57145729160442" scale="0.9961041571964034">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="(mME~oaSSeo}6O,?wKKr">controls</variable>
       <variable id="fj/rf#:.qcKO]`XV.u0M">walls</variable>
