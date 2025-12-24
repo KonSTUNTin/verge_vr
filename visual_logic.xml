@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1859.6373196783843" scrolly="-1283.2006355632855" scale="1">
+  <tab name="main" type="CommonTab" active="true" scrollx="1620.5003971494252" scrolly="-173.16412582419287" scale="0.7438330455607274">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -179,7 +179,7 @@
       <field name="VAR" id="RfFqhuISKzBiGPK8W+}H">st</field>
       <value name="VALUE">
         <block type="lists_create_with" id="Mc8/l21S1Q^7gmtAL[ho">
-          <mutation items="4"></mutation>
+          <mutation items="6"></mutation>
           <value name="ADD0">
             <block type="groupList" id="{T74ioq0E;/Xq7UT$(W+">
               <field name="FIELDNAME">logo</field>
@@ -188,6 +188,26 @@
           <value name="ADD1">
             <block type="groupList" id="47lIO{vSv$ZSKdwh/bf(">
               <field name="FIELDNAME">tutorial</field>
+            </block>
+          </value>
+          <value name="ADD2">
+            <block type="groupList" id=")M+pC:cB[$Pjs9E9La81">
+              <field name="FIELDNAME">base</field>
+            </block>
+          </value>
+          <value name="ADD3">
+            <block type="groupList" id="?7fifuiGrapr0Kbo[$YL">
+              <field name="FIELDNAME">train</field>
+            </block>
+          </value>
+          <value name="ADD4">
+            <block type="groupList" id="U2ddOoIl_D=I;#?V=B22">
+              <field name="FIELDNAME">highlights</field>
+            </block>
+          </value>
+          <value name="ADD5">
+            <block type="groupList" id="N9hw9`y{aYi7H}jYA/rL">
+              <field name="FIELDNAME">red_line</field>
             </block>
           </value>
         </block>
