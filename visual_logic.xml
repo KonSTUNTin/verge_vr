@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="920.3660602164682" scrolly="-391.20304047484245" scale="0.8686671622148506">
+  <tab name="main" type="CommonTab" active="true" scrollx="873.7568359375" scrolly="-577.2597045898433" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -295,7 +295,7 @@
                                           </value>
                                           <value name="USE_VECTOR">
                                             <block type="getObjTransform" id="ofOZTBV86CYC)B/!E}Z=">
-                                              <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+                                              <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="true"></mutation>
                                               <field name="MODE">position</field>
                                               <field name="COORD">xyz</field>
                                               <value name="TARGETOBJ">
@@ -320,7 +320,7 @@
                                               </value>
                                               <value name="USE_VECTOR">
                                                 <block type="getObjTransform" id="x(8U^6mAE4]}Z!Fon%$~">
-                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="true"></mutation>
                                                   <field name="MODE">rotation</field>
                                                   <field name="COORD">xyz</field>
                                                   <value name="TARGETOBJ">
