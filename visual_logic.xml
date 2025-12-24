@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="854.7457275390625" scrolly="-526.1315307617188" scale="1">
+  <tab name="main" type="CommonTab" active="false" scrollx="890.7457275390625" scrolly="-479.13153076171875" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -17,8 +17,8 @@
       <variable id="/1J858RY/]-Br.Ko@o^(">visibility</variable>
       <variable id="?%,J7o7/0EYjz};q_z4w">blue</variable>
       <variable id="(^kgO;96go3/6PFc2-@X">YY</variable>
-      <variable id="#;D_2@.^um63()@uxktH">XX</variable>
       <variable id="-.h88?$85U|3}LvR2UU)">move forward</variable>
+      <variable id="#;D_2@.^um63()@uxktH">XX</variable>
       <variable id="j3/d.QT85aC$:.b(?S{z">move side</variable>
       <variable id="2oj|+Q,rv1jk,~GZfH}2">dir vector forward</variable>
       <variable id="Rq2D?pn(}trbviHRy3Nw">dir vector side</variable>
@@ -1077,7 +1077,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="wall logic" type="CommonTab" active="false" scrollx="428.35650634765625" scrolly="22.036514282226562" scale="1">
+  <tab name="wall logic" type="CommonTab" active="true" scrollx="400.35650634765625" scrolly="71" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="(mME~oaSSeo}6O,?wKKr">controls</variable>
       <variable id="fj/rf#:.qcKO]`XV.u0M">walls</variable>
@@ -1090,22 +1090,22 @@
           <mutation items="4"></mutation>
           <value name="ADD0">
             <block type="objectList" id="%/g``_r;4(XF1`4};qBS">
-              <field name="FIELDNAME">vr wall_1</field>
+              <field name="FIELDNAME">collider_1</field>
             </block>
           </value>
           <value name="ADD1">
             <block type="objectList" id="IM10w1f$cV!Z+2zZh7W:">
-              <field name="FIELDNAME">vr wall_2</field>
+              <field name="FIELDNAME">collider_2</field>
             </block>
           </value>
           <value name="ADD2">
             <block type="objectList" id=".x{O!(i}R3w|IJ,vcYEX">
-              <field name="FIELDNAME">vr wall_3</field>
+              <field name="FIELDNAME">collider_3</field>
             </block>
           </value>
           <value name="ADD3">
             <block type="objectList" id="E(0UK)nN-/.+%;{In}1Q">
-              <field name="FIELDNAME">vr wall_4</field>
+              <field name="FIELDNAME">collider_4</field>
             </block>
           </value>
         </block>
