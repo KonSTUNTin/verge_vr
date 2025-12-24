@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1620.5003971494252" scrolly="-173.16412582419287" scale="0.7438330455607274">
+  <tab name="main" type="CommonTab" active="true" scrollx="1963.0118742445557" scrolly="-283.78337010586665" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -186,26 +186,26 @@
             </block>
           </value>
           <value name="ADD1">
-            <block type="groupList" id="47lIO{vSv$ZSKdwh/bf(">
-              <field name="FIELDNAME">tutorial</field>
+            <block type="lists_create_with" id="WoY93;,0]dDIh;L46Q:4">
+              <mutation items="2"></mutation>
+              <value name="ADD0">
+                <block type="groupList" id="U2ddOoIl_D=I;#?V=B22">
+                  <field name="FIELDNAME">highlights</field>
+                </block>
+              </value>
+              <value name="ADD1">
+                <block type="groupList" id="47lIO{vSv$ZSKdwh/bf(">
+                  <field name="FIELDNAME">tutorial</field>
+                </block>
+              </value>
             </block>
           </value>
           <value name="ADD2">
-            <block type="groupList" id=")M+pC:cB[$Pjs9E9La81">
-              <field name="FIELDNAME">base</field>
-            </block>
-          </value>
-          <value name="ADD3">
             <block type="groupList" id="?7fifuiGrapr0Kbo[$YL">
               <field name="FIELDNAME">train</field>
             </block>
           </value>
-          <value name="ADD4">
-            <block type="groupList" id="U2ddOoIl_D=I;#?V=B22">
-              <field name="FIELDNAME">highlights</field>
-            </block>
-          </value>
-          <value name="ADD5">
+          <value name="ADD3">
             <block type="groupList" id="N9hw9`y{aYi7H}jYA/rL">
               <field name="FIELDNAME">red_line</field>
             </block>
