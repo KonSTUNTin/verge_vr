@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1278.3701171875" scrolly="-353.91754150390625" scale="1">
+  <tab name="main" type="CommonTab" active="false" scrollx="1223.3701171875" scrolly="-332.91754150390625" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -1043,7 +1043,7 @@
       </next>
     </block>
   </tab>
-  <tab name="wall logic" type="CommonTab" active="false" scrollx="551.1596119499663" scrolly="151.59106401379904" scale="0.7075708714575379">
+  <tab name="wall logic" type="CommonTab" active="true" scrollx="462.90234375000006" scrolly="103.0676040649414" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="(mME~oaSSeo}6O,?wKKr">controls</variable>
       <variable id="fj/rf#:.qcKO]`XV.u0M">walls</variable>
@@ -1056,22 +1056,22 @@
           <mutation items="4"></mutation>
           <value name="ADD0">
             <block type="objectList" id="%/g``_r;4(XF1`4};qBS">
-              <field name="FIELDNAME">collider_1</field>
+              <field name="FIELDNAME">vr wall_1</field>
             </block>
           </value>
           <value name="ADD1">
             <block type="objectList" id="IM10w1f$cV!Z+2zZh7W:">
-              <field name="FIELDNAME">collider_2</field>
+              <field name="FIELDNAME">vr wall_2</field>
             </block>
           </value>
           <value name="ADD2">
             <block type="objectList" id=".x{O!(i}R3w|IJ,vcYEX">
-              <field name="FIELDNAME">collider_3</field>
+              <field name="FIELDNAME">vr wall_3</field>
             </block>
           </value>
           <value name="ADD3">
             <block type="objectList" id="E(0UK)nN-/.+%;{In}1Q">
-              <field name="FIELDNAME">collider_4</field>
+              <field name="FIELDNAME">vr wall_4</field>
             </block>
           </value>
         </block>
