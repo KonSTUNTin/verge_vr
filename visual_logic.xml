@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1080.0989990234375" scrolly="-1369.295654296875" scale="1">
+  <tab name="main" type="CommonTab" active="true" scrollx="1308.5210304482916" scrolly="-1260.871848652525" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -175,21 +175,7 @@
         </block>
       </statement>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="|0kQKK=|X*UNW*9Q8b]Y" x="390" y="350">
-      <field name="EVENT">click</field>
-      <field name="PARENT">FALSE</field>
-      <value name="ID">
-        <shadow type="text" id="ej7iv-}?Qj-LfZCOf?e?">
-          <field name="TEXT">enter_vr_button</field>
-        </shadow>
-      </value>
-      <statement name="DO">
-        <block type="procedures_callnoreturn" id="lx:$x/iG-aL{JaOnTPeA">
-          <mutation name="VR_INIT"></mutation>
-        </block>
-      </statement>
-    </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="]e)s6hSJE4-Xj-^80ehp" x="-990" y="470">
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="]e)s6hSJE4-Xj-^80ehp" x="-1670" y="390">
       <field name="VAR" id="RfFqhuISKzBiGPK8W+}H">st</field>
       <value name="VALUE">
         <block type="lists_create_with" id="Mc8/l21S1Q^7gmtAL[ho">
@@ -796,12 +782,18 @@
                                                                 <shadow type="objectList" id="B,VGIMB~?z(:V|q;8X~z">
                                                                   <field name="FIELDNAME">&lt;none&gt;</field>
                                                                 </shadow>
-                                                                <block type="getObjectsFrom" id="ioSQ^1#eD-*|n;+nq9qh">
+                                                                <block type="getObjectsFrom" id="vWhOWiCcB]$Uv;[~a1f#">
                                                                   <mutation xmlns="http://www.w3.org/1999/xhtml" usenamefilter="false" useid="false"></mutation>
                                                                   <field name="TYPE">ALL</field>
                                                                   <value name="OBJ">
-                                                                    <block type="variables_get" id="4;@6w-*jc];ss2kwzvEf">
-                                                                      <field name="VAR" id="RfFqhuISKzBiGPK8W+}H">st</field>
+                                                                    <block type="getObjectsFrom" id="m_ltB[oLg^-AI`1.%W7(">
+                                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usenamefilter="false" useid="false"></mutation>
+                                                                      <field name="TYPE">ALL</field>
+                                                                      <value name="OBJ">
+                                                                        <block type="variables_get" id="084ctAI;bRGq@K7zhnt.">
+                                                                          <field name="VAR" id="RfFqhuISKzBiGPK8W+}H">st</field>
+                                                                        </block>
+                                                                      </value>
                                                                     </block>
                                                                   </value>
                                                                 </block>
@@ -1047,6 +1039,20 @@
           </next>
         </block>
       </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="|0kQKK=|X*UNW*9Q8b]Y" x="390" y="350">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="ej7iv-}?Qj-LfZCOf?e?">
+          <field name="TEXT">enter_vr_button</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="procedures_callnoreturn" id="lx:$x/iG-aL{JaOnTPeA">
+          <mutation name="VR_INIT"></mutation>
+        </block>
+      </statement>
     </block>
   </tab>
   <tab name="wall logic" type="CommonTab" active="false" scrollx="463.49878817796707" scrolly="103.71015477180481" scale="0.9961041571964034">
