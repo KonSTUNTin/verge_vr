@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="init" type="InitTab" active="false" scrollx="222.54431431846388" scrolly="-61.2521159995315" scale="0.5568374181775592">
+  <tab name="init" type="InitTab" active="false" scrollx="222.5443143184641" scrolly="-61.2521159995315" scale="0.5568374181775592">
     <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="z5O,3)}Z!j?0Hb.Ns@]0" x="130" y="110">
       <field name="LOAD_COMP_ASSETS">TRUE</field>
       <field name="FULLSCREEN">TRUE</field>
@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1005.5675048828125" scrolly="-99.00000000000011" scale="1">
+  <tab name="main" type="CommonTab" active="false" scrollx="1191.331298828125" scrolly="170" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -1021,6 +1021,242 @@
           <mutation name="VR_INIT"></mutation>
         </block>
       </statement>
+    </block>
+  </tab>
+  <tab name="wall logic" type="CommonTab" active="true" scrollx="304.60729980468744" scrolly="-24.552124023437443" scale="1">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="(mME~oaSSeo}6O,?wKKr">controls</variable>
+      <variable id="fj/rf#:.qcKO]`XV.u0M">walls</variable>
+      <variable id="NA{~2x;,$GO8]*6ylTTN">j</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="q6E,}dUf=Zs1{X?kSC^i" x="-90" y="110">
+      <field name="VAR" id="(mME~oaSSeo}6O,?wKKr">controls</field>
+      <value name="VALUE">
+        <block type="lists_create_with" id="n5Z3tyj3EL8[ZftV(cVO">
+          <mutation items="4"></mutation>
+          <value name="ADD0">
+            <block type="objectList" id="%/g``_r;4(XF1`4};qBS">
+              <field name="FIELDNAME">vr wall_1</field>
+            </block>
+          </value>
+          <value name="ADD1">
+            <block type="objectList" id="IM10w1f$cV!Z+2zZh7W:">
+              <field name="FIELDNAME">vr wall_2</field>
+            </block>
+          </value>
+          <value name="ADD2">
+            <block type="objectList" id=".x{O!(i}R3w|IJ,vcYEX">
+              <field name="FIELDNAME">vr wall_3</field>
+            </block>
+          </value>
+          <value name="ADD3">
+            <block type="objectList" id="E(0UK)nN-/.+%;{In}1Q">
+              <field name="FIELDNAME">vr wall_4</field>
+            </block>
+          </value>
+        </block>
+      </value>
+      <next>
+        <block type="variables_set" id="wYa`KjVL;OQERi{C#!-z">
+          <field name="VAR" id="fj/rf#:.qcKO]`XV.u0M">walls</field>
+          <value name="VALUE">
+            <block type="lists_create_with" id="*O;l`*]b7=T3!ear9XEj">
+              <mutation items="4"></mutation>
+              <value name="ADD0">
+                <block type="objectList" id="$XPr%Y*~Nv`.cTvoN!v[">
+                  <field name="FIELDNAME">wall_1</field>
+                </block>
+              </value>
+              <value name="ADD1">
+                <block type="objectList" id="h!q/XV(p.|lxF)8n%QMX">
+                  <field name="FIELDNAME">wall_2</field>
+                </block>
+              </value>
+              <value name="ADD2">
+                <block type="objectList" id="F+kuEhPw1rS!o4DhdC,G">
+                  <field name="FIELDNAME">wall_3</field>
+                </block>
+              </value>
+              <value name="ADD3">
+                <block type="objectList" id="$T?Y.%+4K$moO*Y+e7Hb">
+                  <field name="FIELDNAME">wall_4</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <next>
+            <block type="controls_for" id="#3XH;.HR[Pv8kGR,~TvK">
+              <field name="VAR" id="NA{~2x;,$GO8]*6ylTTN">j</field>
+              <value name="FROM">
+                <shadow type="math_number" id="0odC1~A%y3e/-Ptdm,W]">
+                  <field name="NUM">0</field>
+                </shadow>
+              </value>
+              <value name="TO">
+                <shadow type="math_number" id="hNLFMx_T.,$9Umi^+i4]">
+                  <field name="NUM">8</field>
+                </shadow>
+                <block type="math_arithmetic" id="s|9+~_FvK5Q_N7Ipn]R9">
+                  <field name="OP">MINUS</field>
+                  <value name="A">
+                    <shadow type="math_number" id="zt(Vr|m*ObLNMh;).j+!">
+                      <field name="NUM">2</field>
+                    </shadow>
+                    <block type="lists_length" id="QofbAAu(1Q?5%z;OtdmO">
+                      <value name="VALUE">
+                        <block type="variables_get" id="AHoPW*J7B^$zTz):$V[1">
+                          <field name="VAR" id="fj/rf#:.qcKO]`XV.u0M">walls</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <shadow type="math_number" id="qhu??2Q3uB!p}#?5(Z|g">
+                      <field name="NUM">1</field>
+                    </shadow>
+                  </value>
+                </block>
+              </value>
+              <value name="BY">
+                <shadow type="math_number" id="8*#9vuik]Qn|u;f[=tns">
+                  <field name="NUM">1</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="hide" id="(|by7k,A%$4HERIjZprs">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="CNqb+[=c!kgK-K_XC2^P">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="lists_getIndex" id="9Gj*49}Q{V}PZqYF}2qA">
+                      <mutation statement="false" at="true"></mutation>
+                      <field name="MODE">GET</field>
+                      <field name="WHERE">FROM_START</field>
+                      <value name="VALUE">
+                        <block type="variables_get" id="PhE8eY3$xyRkpC=g^lRj">
+                          <field name="VAR" id="fj/rf#:.qcKO]`XV.u0M">walls</field>
+                        </block>
+                      </value>
+                      <value name="AT">
+                        <block type="variables_get" id="1Key!(MV-D#%|DXR5;x^">
+                          <field name="VAR" id="NA{~2x;,$GO8]*6ylTTN">j</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="whenClicked" id="^d)d(r.ix,.,}H0_0==Q" inline="false">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+                      <field name="X_RAY">FALSE</field>
+                      <field name="DOUBLE_CLICK">FALSE</field>
+                      <field name="LEFT_BUTTON">TRUE</field>
+                      <field name="MIDDLE_BUTTON">TRUE</field>
+                      <field name="RIGHT_BUTTON">TRUE</field>
+                      <value name="VALUE">
+                        <shadow type="objectList" id="YQ]U6B6`/dbFll5/p7d3">
+                          <field name="FIELDNAME">wall.002</field>
+                        </shadow>
+                        <block type="lists_getIndex" id="fl?$0[Po=]IHI*p_M37v">
+                          <mutation statement="false" at="true"></mutation>
+                          <field name="MODE">GET</field>
+                          <field name="WHERE">FROM_START</field>
+                          <value name="VALUE">
+                            <block type="variables_get" id="2^kP)oaX=#sc~rXe#6rh">
+                              <field name="VAR" id="(mME~oaSSeo}6O,?wKKr">controls</field>
+                            </block>
+                          </value>
+                          <value name="AT">
+                            <block type="variables_get" id="!O$jilEg;EySp0fX`r?T">
+                              <field name="VAR" id="NA{~2x;,$GO8]*6ylTTN">j</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                      <statement name="DO">
+                        <block type="controls_if" id="4XzlfGrVleF%f2I2DK$)">
+                          <mutation else="1"></mutation>
+                          <value name="IF0">
+                            <block type="isObjectVisible" id="=7!FA4%|-kj2zW5Pa55W">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="Cdm^fJ:-a5@~@,lf;SQ_">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="lists_getIndex" id="]qIIU#(i:p|sA+,eXQq9">
+                                  <mutation statement="false" at="true"></mutation>
+                                  <field name="MODE">GET</field>
+                                  <field name="WHERE">FROM_START</field>
+                                  <value name="VALUE">
+                                    <block type="variables_get" id="/mc]X@dRV~m{RnzhtvO)">
+                                      <field name="VAR" id="fj/rf#:.qcKO]`XV.u0M">walls</field>
+                                    </block>
+                                  </value>
+                                  <value name="AT">
+                                    <block type="variables_get" id="67:z))vB+f9iNg,Cv8I9">
+                                      <field name="VAR" id="NA{~2x;,$GO8]*6ylTTN">j</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                            </block>
+                          </value>
+                          <statement name="DO0">
+                            <block type="hide" id="!NQzhjs(r1Uxb]smaJA?">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="CNqb+[=c!kgK-K_XC2^P">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="lists_getIndex" id="=_iV3lr%C0ivDd53)qfs">
+                                  <mutation statement="false" at="true"></mutation>
+                                  <field name="MODE">GET</field>
+                                  <field name="WHERE">FROM_START</field>
+                                  <value name="VALUE">
+                                    <block type="variables_get" id="6Q0OaN:,T0aKSK|7`uy?">
+                                      <field name="VAR" id="fj/rf#:.qcKO]`XV.u0M">walls</field>
+                                    </block>
+                                  </value>
+                                  <value name="AT">
+                                    <block type="variables_get" id="RY!y:t4*dHd+qkg$ugvi">
+                                      <field name="VAR" id="NA{~2x;,$GO8]*6ylTTN">j</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                            </block>
+                          </statement>
+                          <statement name="ELSE">
+                            <block type="show" id="!+M5M`q-#y;!sY*q77N$">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="i^GGj=unwM){1n3x5mUx">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="lists_getIndex" id="tt5YM4w1uz-y7:MI|-fH">
+                                  <mutation statement="false" at="true"></mutation>
+                                  <field name="MODE">GET</field>
+                                  <field name="WHERE">FROM_START</field>
+                                  <value name="VALUE">
+                                    <block type="variables_get" id="|^~L$NvB!F9rx0CP^-/Z">
+                                      <field name="VAR" id="fj/rf#:.qcKO]`XV.u0M">walls</field>
+                                    </block>
+                                  </value>
+                                  <value name="AT">
+                                    <block type="variables_get" id="Ssx4FBLDU#[2X-l?Mp05">
+                                      <field name="VAR" id="NA{~2x;,$GO8]*6ylTTN">j</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                            </block>
+                          </statement>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
     </block>
   </tab>
   <editorsettings viewport-x="949.9182373046874" viewport-y="59.81817626953125" viewport-w="659.898" viewport-h="326" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
