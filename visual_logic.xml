@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1081.3701782226565" scrolly="-498.9175415039065" scale="1">
+  <tab name="main" type="CommonTab" active="true" scrollx="1227.3701782226565" scrolly="-378.91754150390636" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -175,7 +175,21 @@
         </block>
       </statement>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="]e)s6hSJE4-Xj-^80ehp" x="-790" y="390">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="|0kQKK=|X*UNW*9Q8b]Y" x="390" y="350">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="ej7iv-}?Qj-LfZCOf?e?">
+          <field name="TEXT">enter_vr_button</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="procedures_callnoreturn" id="lx:$x/iG-aL{JaOnTPeA">
+          <mutation name="VR_INIT"></mutation>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="]e)s6hSJE4-Xj-^80ehp" x="-990" y="470">
       <field name="VAR" id="RfFqhuISKzBiGPK8W+}H">st</field>
       <value name="VALUE">
         <block type="lists_create_with" id="Mc8/l21S1Q^7gmtAL[ho">
@@ -289,16 +303,16 @@
                                             <shadow type="objectList" id="~D{nQN:H^[~[sS!QHaX:">
                                               <field name="FIELDNAME">&lt;none&gt;</field>
                                             </shadow>
-                                            <block type="xrControllerProp" id="_8qQj@yN,X6dQxq]|r[c">
-                                              <field name="PROPERTY">OBJECT</field>
+                                            <block type="objectList" id="%WrwLpsK0|AnA*_j8N*#">
+                                              <field name="FIELDNAME">menuu</field>
                                             </block>
                                           </value>
                                           <value name="PARENT_TO">
                                             <shadow type="objectList" id="bfu_!j,rzi|MF:2=BVCL">
                                               <field name="FIELDNAME">&lt;none&gt;</field>
                                             </shadow>
-                                            <block type="objectList" id="%WrwLpsK0|AnA*_j8N*#">
-                                              <field name="FIELDNAME">menuu</field>
+                                            <block type="xrControllerProp" id="_8qQj@yN,X6dQxq]|r[c">
+                                              <field name="PROPERTY">OBJECT</field>
                                             </block>
                                           </value>
                                           <next>
@@ -1027,20 +1041,6 @@
           </next>
         </block>
       </next>
-    </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="|0kQKK=|X*UNW*9Q8b]Y" x="390" y="350">
-      <field name="EVENT">click</field>
-      <field name="PARENT">FALSE</field>
-      <value name="ID">
-        <shadow type="text" id="ej7iv-}?Qj-LfZCOf?e?">
-          <field name="TEXT">enter_vr_button</field>
-        </shadow>
-      </value>
-      <statement name="DO">
-        <block type="procedures_callnoreturn" id="lx:$x/iG-aL{JaOnTPeA">
-          <mutation name="VR_INIT"></mutation>
-        </block>
-      </statement>
     </block>
   </tab>
   <tab name="wall logic" type="CommonTab" active="false" scrollx="551.1596119499663" scrolly="151.59106401379904" scale="0.7075708714575379">
