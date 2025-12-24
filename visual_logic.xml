@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1227.3701782226565" scrolly="-378.91754150390636" scale="1">
+  <tab name="main" type="CommonTab" active="true" scrollx="1278.3701171875" scrolly="-353.91754150390625" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -312,7 +312,7 @@
                                               <field name="FIELDNAME">&lt;none&gt;</field>
                                             </shadow>
                                             <block type="xrControllerProp" id="_8qQj@yN,X6dQxq]|r[c">
-                                              <field name="PROPERTY">OBJECT</field>
+                                              <field name="PROPERTY">RAY_RETICLE</field>
                                             </block>
                                           </value>
                                           <next>
