@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1734.9183707710818" scrolly="-955.6287529861547" scale="0.7229426312620713">
+  <tab name="main" type="CommonTab" active="true" scrollx="1804.9183707710818" scrolly="-1026.628752986155" scale="0.7229426312620713">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -581,11 +581,15 @@
                                                         </block>
                                                       </value>
                                                       <statement name="DO0">
-                                                        <block type="variables_set" id="zO.b@L)uc{P,9}EWLIyG">
+                                                        <block type="variables_set" id="U3L(bR-bQ7nmMq=-F0!L">
                                                           <field name="VAR" id="@bD~%cJFHMDKf4x;|YL^">prevStickMoved</field>
                                                           <value name="VALUE">
-                                                            <block type="logic_boolean" id="[r)Em%6Eg/uqV|[SE;rq">
-                                                              <field name="BOOL">TRUE</field>
+                                                            <block type="logic_negate" id="z_c6g99kn7UI#1[o4ky?">
+                                                              <value name="BOOL">
+                                                                <block type="variables_get" id="zE:_~$BF$DFBdZkqSJ]/">
+                                                                  <field name="VAR" id="@bD~%cJFHMDKf4x;|YL^">prevStickMoved</field>
+                                                                </block>
+                                                              </value>
                                                             </block>
                                                           </value>
                                                           <next>
@@ -618,7 +622,7 @@
                                                                   <field name="VAR" id="kCUYkQ(qv09NQJVhe;`B">delta</field>
                                                                   <value name="VALUE">
                                                                     <block type="math_number" id="p?uEL.U^kiUmTPW*8n.$">
-                                                                      <field name="NUM">-1</field>
+                                                                      <field name="NUM">1</field>
                                                                     </block>
                                                                   </value>
                                                                 </block>
@@ -879,15 +883,11 @@
                                                                         </block>
                                                                       </statement>
                                                                       <next>
-                                                                        <block type="variables_set" id="U3L(bR-bQ7nmMq=-F0!L">
+                                                                        <block type="variables_set" id="zO.b@L)uc{P,9}EWLIyG">
                                                                           <field name="VAR" id="@bD~%cJFHMDKf4x;|YL^">prevStickMoved</field>
                                                                           <value name="VALUE">
-                                                                            <block type="logic_negate" id="z_c6g99kn7UI#1[o4ky?">
-                                                                              <value name="BOOL">
-                                                                                <block type="variables_get" id="zE:_~$BF$DFBdZkqSJ]/">
-                                                                                  <field name="VAR" id="@bD~%cJFHMDKf4x;|YL^">prevStickMoved</field>
-                                                                                </block>
-                                                                              </value>
+                                                                            <block type="logic_boolean" id="[r)Em%6Eg/uqV|[SE;rq">
+                                                                              <field name="BOOL">TRUE</field>
                                                                             </block>
                                                                           </value>
                                                                         </block>
