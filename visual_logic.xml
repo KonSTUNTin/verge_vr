@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="2123.141468036075" scrolly="-1348.9149362940477" scale="1">
+  <tab name="main" type="CommonTab" active="true" scrollx="2184.080810546875" scrolly="-1352.4957275390625" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -598,16 +598,8 @@
                                                                 <block type="logic_compare" id="|HLicN$DqP=OmNkdh2fH">
                                                                   <field name="OP">GT</field>
                                                                   <value name="A">
-                                                                    <block type="math_single" id="Yh].%UB5@f-D8w7IkG*$">
-                                                                      <field name="OP">ABS</field>
-                                                                      <value name="NUM">
-                                                                        <shadow type="math_number" id="gt%t/~hx+Z{[m!{ln:Kp">
-                                                                          <field name="NUM">4</field>
-                                                                        </shadow>
-                                                                        <block type="variables_get" id="]Ap*q6x:q:}j(Tn7q8UR">
-                                                                          <field name="VAR" id="(^kgO;96go3/6PFc2-@X">YY</field>
-                                                                        </block>
-                                                                      </value>
+                                                                    <block type="variables_get" id="]Ap*q6x:q:}j(Tn7q8UR">
+                                                                      <field name="VAR" id="(^kgO;96go3/6PFc2-@X">YY</field>
                                                                     </block>
                                                                   </value>
                                                                   <value name="B">
@@ -633,16 +625,8 @@
                                                                     <block type="logic_compare" id="O@d;~zuC5v]om`TCsxzj">
                                                                       <field name="OP">LT</field>
                                                                       <value name="A">
-                                                                        <block type="math_single" id="X|;Vesr$IyPk=3tP=**]">
-                                                                          <field name="OP">ABS</field>
-                                                                          <value name="NUM">
-                                                                            <shadow type="math_number" id="gt%t/~hx+Z{[m!{ln:Kp">
-                                                                              <field name="NUM">4</field>
-                                                                            </shadow>
-                                                                            <block type="variables_get" id="cH8hL1ox(=,9L:I6%opV">
-                                                                              <field name="VAR" id="(^kgO;96go3/6PFc2-@X">YY</field>
-                                                                            </block>
-                                                                          </value>
+                                                                        <block type="variables_get" id="cH8hL1ox(=,9L:I6%opV">
+                                                                          <field name="VAR" id="(^kgO;96go3/6PFc2-@X">YY</field>
                                                                         </block>
                                                                       </value>
                                                                       <value name="B">
