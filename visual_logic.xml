@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1783.7852216584579" scrolly="-1723.0313480726327" scale="0.857339495666975">
+  <tab name="main" type="CommonTab" active="true" scrollx="2069.663005753663" scrolly="-1914.2960631322512" scale="0.9555530234552702">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -948,16 +948,8 @@
                                                             <block type="logic_compare" id="-5;[S8g!k?Zk+w=Tob?m">
                                                               <field name="OP">GT</field>
                                                               <value name="A">
-                                                                <block type="math_single" id="BViTLcz-!#XN^ZFh?qCA">
-                                                                  <field name="OP">ABS</field>
-                                                                  <value name="NUM">
-                                                                    <shadow type="math_number" id="gt%t/~hx+Z{[m!{ln:Kp">
-                                                                      <field name="NUM">4</field>
-                                                                    </shadow>
-                                                                    <block type="variables_get" id="@T#nuhElZuHTa7pr/pS6">
-                                                                      <field name="VAR" id="(^kgO;96go3/6PFc2-@X">YY</field>
-                                                                    </block>
-                                                                  </value>
+                                                                <block type="variables_get" id="@T#nuhElZuHTa7pr/pS6">
+                                                                  <field name="VAR" id="(^kgO;96go3/6PFc2-@X">YY</field>
                                                                 </block>
                                                               </value>
                                                               <value name="B">
@@ -968,21 +960,21 @@
                                                             </block>
                                                           </value>
                                                           <statement name="DO0">
-                                                            <block type="variables_set" id="8)Q6{.QN9(Nyiu=W|v4%">
-                                                              <field name="VAR" id="kCUYkQ(qv09NQJVhe;`B">delta</field>
-                                                              <value name="VALUE">
-                                                                <block type="math_number" id="n~,g0ZyO}vV=qFnGJih,">
-                                                                  <field name="NUM">1</field>
-                                                                </block>
-                                                              </value>
-                                                            </block>
-                                                          </statement>
-                                                          <statement name="ELSE">
                                                             <block type="variables_set" id="!rX~8{+TNJ5YAw__Mbut">
                                                               <field name="VAR" id="kCUYkQ(qv09NQJVhe;`B">delta</field>
                                                               <value name="VALUE">
                                                                 <block type="math_number" id="TspGm*MZB9{LY~f0VtY)">
                                                                   <field name="NUM">-1</field>
+                                                                </block>
+                                                              </value>
+                                                            </block>
+                                                          </statement>
+                                                          <statement name="ELSE">
+                                                            <block type="variables_set" id="8)Q6{.QN9(Nyiu=W|v4%">
+                                                              <field name="VAR" id="kCUYkQ(qv09NQJVhe;`B">delta</field>
+                                                              <value name="VALUE">
+                                                                <block type="math_number" id="n~,g0ZyO}vV=qFnGJih,">
+                                                                  <field name="NUM">1</field>
                                                                 </block>
                                                               </value>
                                                             </block>
