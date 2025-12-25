@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="2030.5687890971185" scrolly="-808.2038136296331" scale="0.9369060469995149">
+  <tab name="main" type="CommonTab" active="true" scrollx="1963.55908203125" scrolly="-827.0614013671873" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -379,11 +379,6 @@
                   <field name="FIELDNAME">menu_2</field>
                 </block>
               </value>
-              <value name="ADD1">
-                <block type="groupList" id="_w`?,U,:h0UEMknhE#9j">
-                  <field name="FIELDNAME">red_line</field>
-                </block>
-              </value>
               <value name="ADD2">
                 <block type="groupList" id="T2`;PAZ~DYg9X|sz:xI2">
                   <field name="FIELDNAME">interactive_zone</field>
@@ -422,6 +417,11 @@
               <value name="ADD0">
                 <block type="groupList" id="OWopGUOy%+UPzeX!+#eX">
                   <field name="FIELDNAME">menu_4</field>
+                </block>
+              </value>
+              <value name="ADD1">
+                <block type="groupList" id="_w`?,U,:h0UEMknhE#9j">
+                  <field name="FIELDNAME">red_line</field>
                 </block>
               </value>
               <value name="ADD2">
