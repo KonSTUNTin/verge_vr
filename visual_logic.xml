@@ -8,10 +8,9 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="2110.4410039516447" scrolly="-2114.072915385607" scale="0.9922234919839572">
+  <tab name="main" type="CommonTab" active="true" scrollx="1797.5504378939065" scrolly="-1431.0691130483656" scale="0.7410716601127965">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
-      <variable id="#;D_2@.^um63()@uxktH">XX</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
       <variable id="PUWpp+kLZDy7D@nmkCR2">state</variable>
       <variable id="@bD~%cJFHMDKf4x;|YL^">prevStickMoved</variable>
@@ -19,6 +18,7 @@
       <variable id="-.h88?$85U|3}LvR2UU)">move forward</variable>
       <variable id="(^kgO;96go3/6PFc2-@X">YY</variable>
       <variable id="j3/d.QT85aC$:.b(?S{z">move side</variable>
+      <variable id="#;D_2@.^um63()@uxktH">XX</variable>
       <variable id="2oj|+Q,rv1jk,~GZfH}2">dir vector forward</variable>
       <variable id="Rq2D?pn(}trbviHRy3Nw">dir vector side</variable>
       <variable id="ERucHEkk,9CGs?o?.zqp">dir vector</variable>
@@ -833,7 +833,7 @@
                                               </value>
                                               <value name="B">
                                                 <block type="math_number" id="WO4Pq,yn*hVFE47:ovv(">
-                                                  <field name="NUM">0</field>
+                                                  <field name="NUM">1</field>
                                                 </block>
                                               </value>
                                             </block>
@@ -1233,9 +1233,6 @@
           </next>
         </block>
       </next>
-    </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="variables_get" id="#~1O^x6.lQ$EWCHqyWN2" x="-1431" y="2505">
-      <field name="VAR" id="#;D_2@.^um63()@uxktH">XX</field>
     </block>
   </tab>
   <tab name="wall logic" type="CommonTab" active="false" scrollx="316.4514160156249" scrolly="-159.43817138671875" scale="1">
