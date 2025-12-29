@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="2071.915970658641" scrolly="-728.2517734364021" scale="0.9273728117741141">
+  <tab name="main" type="CommonTab" active="true" scrollx="2273.227783203125" scrolly="-1879.278564453125" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -715,18 +715,6 @@
                                                                           </value>
                                                                         </block>
                                                                       </statement>
-                                                                      <next>
-                                                                        <block type="hide" id="xzA(X5B;|(]Q,:f!A}*u">
-                                                                          <value name="VALUE">
-                                                                            <shadow type="objectList" id="B,VGIMB~?z(:V|q;8X~z">
-                                                                              <field name="FIELDNAME">&lt;none&gt;</field>
-                                                                            </shadow>
-                                                                            <block type="variables_get" id="?0[LfT9+_EmoWo7h:5DY">
-                                                                              <field name="VAR" id="_oB!#|)4|mJSE~nD{O+j">i</field>
-                                                                            </block>
-                                                                          </value>
-                                                                        </block>
-                                                                      </next>
                                                                     </block>
                                                                   </statement>
                                                                   <next>
@@ -765,18 +753,6 @@
                                                                               </value>
                                                                             </block>
                                                                           </value>
-                                                                          <next>
-                                                                            <block type="show" id="|LVX4h;XDe-.W_|u6fTM">
-                                                                              <value name="VALUE">
-                                                                                <shadow type="objectList" id="}|FBG2=Ub?iXv=xLi{bM">
-                                                                                  <field name="FIELDNAME">control</field>
-                                                                                </shadow>
-                                                                                <block type="variables_get" id="x%*F4k6)tA!wu^;fI5EY">
-                                                                                  <field name="VAR" id="_oB!#|)4|mJSE~nD{O+j">i</field>
-                                                                                </block>
-                                                                              </value>
-                                                                            </block>
-                                                                          </next>
                                                                         </block>
                                                                       </statement>
                                                                       <next>
