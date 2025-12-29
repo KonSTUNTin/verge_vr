@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="2149.856944903388" scrolly="-1116.371513632998" scale="0.9393007131065124">
+  <tab name="main" type="CommonTab" active="true" scrollx="1970.07820320483" scrolly="-297.3027713752673" scale="0.845447248060664">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -195,7 +195,7 @@
       <field name="VAR" id="RfFqhuISKzBiGPK8W+}H">st</field>
       <value name="VALUE">
         <block type="lists_create_with" id="Mc8/l21S1Q^7gmtAL[ho">
-          <mutation items="10"></mutation>
+          <mutation items="9"></mutation>
           <value name="ADD0">
             <block type="lists_create_with" id="G~b;)n71PEnd,.gozP0/">
               <mutation items="1"></mutation>
@@ -372,31 +372,6 @@
             </block>
           </value>
           <value name="ADD8">
-            <block type="lists_create_with" id="qHdmtm`xC#x@.qHgB512">
-              <mutation items="4"></mutation>
-              <value name="ADD0">
-                <block type="groupList" id="OWopGUOy%+UPzeX!+#eX">
-                  <field name="FIELDNAME">menu_2</field>
-                </block>
-              </value>
-              <value name="ADD1">
-                <block type="groupList" id="_w`?,U,:h0UEMknhE#9j">
-                  <field name="FIELDNAME">only_gizmo</field>
-                </block>
-              </value>
-              <value name="ADD2">
-                <block type="groupList" id="4cx[WRs(K]uQ{4)cM49I">
-                  <field name="FIELDNAME">base</field>
-                </block>
-              </value>
-              <value name="ADD3">
-                <block type="groupList" id="TNZYjwL3{!c{U1,P.V[^">
-                  <field name="FIELDNAME">switcher</field>
-                </block>
-              </value>
-            </block>
-          </value>
-          <value name="ADD9">
             <block type="lists_create_with" id="/2?Fu?{S#lg,{^y,T`^d">
               <mutation items="5"></mutation>
               <value name="ADD0">
