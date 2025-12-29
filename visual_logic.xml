@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1594.129748691652" scrolly="-514.9974426853114" scale="0.6748392493557632">
+  <tab name="main" type="CommonTab" active="true" scrollx="1639.4250043003262" scrolly="-558.3974594105682" scale="0.7077697123721056">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
