@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="2089.65625" scrolly="-952.5429382324219" scale="1">
+  <tab name="main" type="CommonTab" active="true" scrollx="2256.765625" scrolly="-1099.26025390625" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -376,7 +376,7 @@
               <mutation items="4"></mutation>
               <value name="ADD0">
                 <block type="groupList" id="OWopGUOy%+UPzeX!+#eX">
-                  <field name="FIELDNAME">menu_4</field>
+                  <field name="FIELDNAME">menu_3</field>
                 </block>
               </value>
               <value name="ADD1">
@@ -398,7 +398,7 @@
           </value>
           <value name="ADD9">
             <block type="lists_create_with" id="/2?Fu?{S#lg,{^y,T`^d">
-              <mutation items="4"></mutation>
+              <mutation items="5"></mutation>
               <value name="ADD0">
                 <block type="groupList" id="YnBTGIIls^7=}ZD^Ta8?">
                   <field name="FIELDNAME">menu_4</field>
@@ -417,6 +417,11 @@
               <value name="ADD3">
                 <block type="groupList" id="?R9MAyc2ifu9eaowTtFr">
                   <field name="FIELDNAME">switcher</field>
+                </block>
+              </value>
+              <value name="ADD4">
+                <block type="groupList" id="B,mF@QJ))n4@c(kDRmy:">
+                  <field name="FIELDNAME">only_gizmo</field>
                 </block>
               </value>
             </block>
