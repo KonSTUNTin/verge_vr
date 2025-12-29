@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1425.1018599788367" scrolly="-177.6154873192499" scale="0.551485382893229">
+  <tab name="main" type="CommonTab" active="true" scrollx="2091.987060546875" scrolly="-399.2425231933596" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -195,7 +195,7 @@
       <field name="VAR" id="RfFqhuISKzBiGPK8W+}H">st</field>
       <value name="VALUE">
         <block type="lists_create_with" id="Mc8/l21S1Q^7gmtAL[ho">
-          <mutation items="9"></mutation>
+          <mutation items="10"></mutation>
           <value name="ADD0">
             <block type="lists_create_with" id="CW3)b#$Ou5b.ebn?i7f,">
               <mutation items="4"></mutation>
@@ -281,7 +281,7 @@
               </value>
               <value name="ADD4">
                 <block type="groupList" id="dyvw.drSv.$XI7gdm9nv">
-                  <field name="FIELDNAME">transformator</field>
+                  <field name="FIELDNAME">interactive_zone</field>
                 </block>
               </value>
             </block>
@@ -306,7 +306,7 @@
               </value>
               <value name="ADD3">
                 <block type="groupList" id="0(n9b7NDG~@/QvDFF3|b">
-                  <field name="FIELDNAME">transformator</field>
+                  <field name="FIELDNAME">interactive_zone</field>
                 </block>
               </value>
               <value name="ADD4">
@@ -341,7 +341,7 @@
               </value>
               <value name="ADD4">
                 <block type="groupList" id="~I5%]-t1/j.C*b)p9B95">
-                  <field name="FIELDNAME">transformator</field>
+                  <field name="FIELDNAME">interactive_zone</field>
                 </block>
               </value>
             </block>
@@ -364,6 +364,11 @@
                   <field name="FIELDNAME">base</field>
                 </block>
               </value>
+              <value name="ADD3">
+                <block type="groupList" id="Zh;$,)Sny,Y1j[p/n(8A">
+                  <field name="FIELDNAME">interactive_zone</field>
+                </block>
+              </value>
             </block>
           </value>
           <value name="ADD7">
@@ -374,12 +379,12 @@
                   <field name="FIELDNAME">menu_2</field>
                 </block>
               </value>
-              <value name="ADD1">
+              <value name="ADD2">
                 <block type="groupList" id="T2`;PAZ~DYg9X|sz:xI2">
-                  <field name="FIELDNAME">zone error</field>
+                  <field name="FIELDNAME">interactive_zone</field>
                 </block>
               </value>
-              <value name="ADD2">
+              <value name="ADD3">
                 <block type="groupList" id="S9t.$=%pt*e4)Kr5TihS">
                   <field name="FIELDNAME">base</field>
                 </block>
@@ -387,6 +392,26 @@
             </block>
           </value>
           <value name="ADD8">
+            <block type="lists_create_with" id="lQN#@;qD5*##EjbHqe%`">
+              <mutation items="4"></mutation>
+              <value name="ADD0">
+                <block type="groupList" id="_ZtE*mfb?Q|,pS4cp+mQ">
+                  <field name="FIELDNAME">menu_3</field>
+                </block>
+              </value>
+              <value name="ADD2">
+                <block type="groupList" id="gw_g*n1gUF0_X!zC}KGA">
+                  <field name="FIELDNAME">interactive_zone</field>
+                </block>
+              </value>
+              <value name="ADD3">
+                <block type="groupList" id="_kKCj=)LG`3sAjC$Ij-1">
+                  <field name="FIELDNAME">base</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <value name="ADD9">
             <block type="lists_create_with" id="qHdmtm`xC#x@.qHgB512">
               <mutation items="4"></mutation>
               <value name="ADD0">
@@ -397,6 +422,11 @@
               <value name="ADD1">
                 <block type="groupList" id="_w`?,U,:h0UEMknhE#9j">
                   <field name="FIELDNAME">red_line</field>
+                </block>
+              </value>
+              <value name="ADD2">
+                <block type="groupList" id="[7OTK4`jf_fQNTh[z|Cp">
+                  <field name="FIELDNAME">interactive_zone</field>
                 </block>
               </value>
               <value name="ADD3">
