@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1350.5096431729398" scrolly="-69.52903344459992" scale="0.47177308827236036">
+  <tab name="main" type="CommonTab" active="true" scrollx="2089.65625" scrolly="-952.5429382324219" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -195,7 +195,7 @@
       <field name="VAR" id="RfFqhuISKzBiGPK8W+}H">st</field>
       <value name="VALUE">
         <block type="lists_create_with" id="Mc8/l21S1Q^7gmtAL[ho">
-          <mutation items="9"></mutation>
+          <mutation items="10"></mutation>
           <value name="ADD0">
             <block type="lists_create_with" id="G~b;)n71PEnd,.gozP0/">
               <mutation items="1"></mutation>
@@ -208,7 +208,7 @@
           </value>
           <value name="ADD1">
             <block type="lists_create_with" id="CW3)b#$Ou5b.ebn?i7f,">
-              <mutation items="4"></mutation>
+              <mutation items="3"></mutation>
               <value name="ADD0">
                 <block type="groupList" id="nInxr990{?]c34xRfFNz">
                   <field name="FIELDNAME">tutorial_1</field>
@@ -217,16 +217,6 @@
               <value name="ADD1">
                 <block type="groupList" id="F2F}.GcXQl*|JTIEDr@R">
                   <field name="FIELDNAME">base</field>
-                </block>
-              </value>
-              <value name="ADD2">
-                <block type="groupList" id="^N_/`%]5*+nx9=JjRgcU">
-                  <field name="FIELDNAME">tutorial_menu</field>
-                </block>
-              </value>
-              <value name="ADD3">
-                <block type="groupList" id="p8-U2Ts4-C;v(c;YYLu7">
-                  <field name="FIELDNAME">arrows</field>
                 </block>
               </value>
             </block>
@@ -242,11 +232,6 @@
               <value name="ADD1">
                 <block type="groupList" id="HE]J5E39Kf%{I=1vigDj">
                   <field name="FIELDNAME">base</field>
-                </block>
-              </value>
-              <value name="ADD2">
-                <block type="groupList" id="8/_]@V[*L~}/w:Y/M{/{">
-                  <field name="FIELDNAME">tutorial_menu</field>
                 </block>
               </value>
               <value name="ADD3">
@@ -267,11 +252,6 @@
               <value name="ADD1">
                 <block type="groupList" id="xHJ??czOPkaXR3*RwoA=">
                   <field name="FIELDNAME">base</field>
-                </block>
-              </value>
-              <value name="ADD2">
-                <block type="groupList" id="(-XyqTR^+,4|t[LzS)sW">
-                  <field name="FIELDNAME">tutorial_menu</field>
                 </block>
               </value>
               <value name="ADD3">
@@ -304,11 +284,6 @@
                   <field name="FIELDNAME">zone error</field>
                 </block>
               </value>
-              <value name="ADD3">
-                <block type="groupList" id="8e(d6(x`LVPk]vYqu+TL">
-                  <field name="FIELDNAME">tutorial_menu</field>
-                </block>
-              </value>
               <value name="ADD4">
                 <block type="groupList" id="~p6t^MmP?AE?Fbt0G[Z;">
                   <field name="FIELDNAME">switcher</field>
@@ -334,11 +309,6 @@
                   <field name="FIELDNAME">arrows</field>
                 </block>
               </value>
-              <value name="ADD3">
-                <block type="groupList" id="AD`y])/qt_HESBp_]9Z]">
-                  <field name="FIELDNAME">tutorial_menu</field>
-                </block>
-              </value>
               <value name="ADD4">
                 <block type="groupList" id="~I5%]-t1/j.C*b)p9B95">
                   <field name="FIELDNAME">zone error</field>
@@ -361,7 +331,7 @@
               </value>
               <value name="ADD1">
                 <block type="groupList" id=")K{EiEfM/u}VoI5Y.#!|">
-                  <field name="FIELDNAME">train</field>
+                  <field name="FIELDNAME">zone error</field>
                 </block>
               </value>
               <value name="ADD2">
@@ -386,7 +356,7 @@
               </value>
               <value name="ADD1">
                 <block type="groupList" id="T2`;PAZ~DYg9X|sz:xI2">
-                  <field name="FIELDNAME">only_gizmo</field>
+                  <field name="FIELDNAME">train</field>
                 </block>
               </value>
               <value name="ADD2">
@@ -411,7 +381,7 @@
               </value>
               <value name="ADD1">
                 <block type="groupList" id="_w`?,U,:h0UEMknhE#9j">
-                  <field name="FIELDNAME">red_line</field>
+                  <field name="FIELDNAME">only_gizmo</field>
                 </block>
               </value>
               <value name="ADD2">
@@ -421,6 +391,31 @@
               </value>
               <value name="ADD3">
                 <block type="groupList" id="TNZYjwL3{!c{U1,P.V[^">
+                  <field name="FIELDNAME">switcher</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <value name="ADD9">
+            <block type="lists_create_with" id="/2?Fu?{S#lg,{^y,T`^d">
+              <mutation items="4"></mutation>
+              <value name="ADD0">
+                <block type="groupList" id="YnBTGIIls^7=}ZD^Ta8?">
+                  <field name="FIELDNAME">menu_4</field>
+                </block>
+              </value>
+              <value name="ADD1">
+                <block type="groupList" id="L(.zRIQ)9aHv7|eI$7t%">
+                  <field name="FIELDNAME">red_line</field>
+                </block>
+              </value>
+              <value name="ADD2">
+                <block type="groupList" id="7rm):;}u]c#JbOOjpI*y">
+                  <field name="FIELDNAME">base</field>
+                </block>
+              </value>
+              <value name="ADD3">
+                <block type="groupList" id="?R9MAyc2ifu9eaowTtFr">
                   <field name="FIELDNAME">switcher</field>
                 </block>
               </value>
