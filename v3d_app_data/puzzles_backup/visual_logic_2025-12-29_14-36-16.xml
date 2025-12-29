@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="2162.214111328125" scrolly="-1800.623779296875" scale="1">
+  <tab name="main" type="CommonTab" active="true" scrollx="2157.093824835017" scrolly="-978.6673055118183" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -197,16 +197,6 @@
         <block type="lists_create_with" id="Mc8/l21S1Q^7gmtAL[ho">
           <mutation items="10"></mutation>
           <value name="ADD0">
-            <block type="lists_create_with" id="G~b;)n71PEnd,.gozP0/">
-              <mutation items="1"></mutation>
-              <value name="ADD0">
-                <block type="groupList" id="{T74ioq0E;/Xq7UT$(W+">
-                  <field name="FIELDNAME">logo</field>
-                </block>
-              </value>
-            </block>
-          </value>
-          <value name="ADD1">
             <block type="lists_create_with" id="CW3)b#$Ou5b.ebn?i7f,">
               <mutation items="2"></mutation>
               <value name="ADD0">
@@ -217,6 +207,16 @@
               <value name="ADD1">
                 <block type="groupList" id="F2F}.GcXQl*|JTIEDr@R">
                   <field name="FIELDNAME">base</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <value name="ADD1">
+            <block type="lists_create_with" id="G~b;)n71PEnd,.gozP0/">
+              <mutation items="1"></mutation>
+              <value name="ADD0">
+                <block type="groupList" id="{T74ioq0E;/Xq7UT$(W+">
+                  <field name="FIELDNAME">logo</field>
                 </block>
               </value>
             </block>
@@ -715,18 +715,6 @@
                                                                           </value>
                                                                         </block>
                                                                       </statement>
-                                                                      <next>
-                                                                        <block type="hide" id="xzA(X5B;|(]Q,:f!A}*u">
-                                                                          <value name="VALUE">
-                                                                            <shadow type="objectList" id="B,VGIMB~?z(:V|q;8X~z">
-                                                                              <field name="FIELDNAME">&lt;none&gt;</field>
-                                                                            </shadow>
-                                                                            <block type="variables_get" id="?0[LfT9+_EmoWo7h:5DY">
-                                                                              <field name="VAR" id="_oB!#|)4|mJSE~nD{O+j">i</field>
-                                                                            </block>
-                                                                          </value>
-                                                                        </block>
-                                                                      </next>
                                                                     </block>
                                                                   </statement>
                                                                   <next>
@@ -765,18 +753,6 @@
                                                                               </value>
                                                                             </block>
                                                                           </value>
-                                                                          <next>
-                                                                            <block type="show" id="|LVX4h;XDe-.W_|u6fTM">
-                                                                              <value name="VALUE">
-                                                                                <shadow type="objectList" id="}|FBG2=Ub?iXv=xLi{bM">
-                                                                                  <field name="FIELDNAME">control</field>
-                                                                                </shadow>
-                                                                                <block type="variables_get" id="x%*F4k6)tA!wu^;fI5EY">
-                                                                                  <field name="VAR" id="_oB!#|)4|mJSE~nD{O+j">i</field>
-                                                                                </block>
-                                                                              </value>
-                                                                            </block>
-                                                                          </next>
                                                                         </block>
                                                                       </statement>
                                                                       <next>
