@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="2587.8125000000005" scrolly="-348.57159423828193" scale="1">
+  <tab name="main" type="CommonTab" active="true" scrollx="2561.212646484375" scrolly="-161.34112548828136" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
@@ -235,15 +235,15 @@
                 </block>
               </value>
               <value name="ADD2">
-                <block type="groupList" id="X%]RlX~0(UdTKwV^hz@r">
-                  <field name="FIELDNAME">switcher</field>
+                <block type="groupList" id="I5!@XMs;)/`X5gqOFdVO">
+                  <field name="FIELDNAME">zone error</field>
                 </block>
               </value>
             </block>
           </value>
           <value name="ADD3">
             <block type="lists_create_with" id="i);Xr=#=uS=:89jrXw~Z">
-              <mutation items="4"></mutation>
+              <mutation items="3"></mutation>
               <value name="ADD0">
                 <block type="groupList" id="a+P:v{BI:k,c%GT/|%/X">
                   <field name="FIELDNAME">tutorial_3</field>
@@ -255,11 +255,6 @@
                 </block>
               </value>
               <value name="ADD2">
-                <block type="groupList" id="dyvw.drSv.$XI7gdm9nv">
-                  <field name="FIELDNAME">zone error</field>
-                </block>
-              </value>
-              <value name="ADD3">
                 <block type="groupList" id="`f9=wyHO?v#e4erZ|CoW">
                   <field name="FIELDNAME">switcher</field>
                 </block>
