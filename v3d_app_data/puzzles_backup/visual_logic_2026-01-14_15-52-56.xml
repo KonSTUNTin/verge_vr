@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1465.2805858695147" scrolly="-1102.3924830811084" scale="0.6274402226369582">
+  <tab name="main" type="CommonTab" active="true" scrollx="926.1402587890625" scrolly="-1974.1492919921875" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="c*wLyh5TmTUTz6e~NOID">x</variable>

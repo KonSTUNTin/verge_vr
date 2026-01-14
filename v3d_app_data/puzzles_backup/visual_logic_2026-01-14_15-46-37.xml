@@ -8,10 +8,9 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1465.2805858695147" scrolly="-1102.3924830811084" scale="0.6274402226369582">
+  <tab name="main" type="CommonTab" active="true" scrollx="2194.6407903388827" scrolly="-2223.0798066463376" scale="0.8963502009948041">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
-      <variable id="c*wLyh5TmTUTz6e~NOID">x</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
       <variable id="PUWpp+kLZDy7D@nmkCR2">state</variable>
       <variable id="@bD~%cJFHMDKf4x;|YL^">prevStickMoved</variable>
@@ -742,14 +741,7 @@
                                                                               </value>
                                                                               <next>
                                                                                 <block type="procedures_callnoreturn" id="@ojF$xa$FAU)!%pO1hHn">
-                                                                                  <mutation name="change_state">
-                                                                                    <arg name="x"></arg>
-                                                                                  </mutation>
-                                                                                  <value name="ARG0">
-                                                                                    <block type="math_number" id="pJKK%D6+c~j)`o86$Cw|">
-                                                                                      <field name="NUM">1</field>
-                                                                                    </block>
-                                                                                  </value>
+                                                                                  <mutation name="change_state"></mutation>
                                                                                   <next>
                                                                                     <block type="variables_set" id="zO.b@L)uc{P,9}EWLIyG">
                                                                                       <field name="VAR" id="@bD~%cJFHMDKf4x;|YL^">prevStickMoved</field>
@@ -1148,13 +1140,26 @@
                                 </block>
                               </statement>
                               <next>
-                                <block type="execScript" id="AuEZ:$*axg9+@IdRQ-`$">
-                                  <value name="TEXT">
-                                    <shadow type="textMultiline" id="WRSbG?F*7bN@ZqG.bf}X">
-                                      <field name="HIGHLIGHT_MODE">javascript</field>
-                                      <field name="TEXT" editor-height="18" editor-width="665.3990662027777">document.addEventListener('keydown', (event) =&gt; {&amp;#10;  const key = event.key;&amp;#10;&amp;#10;  if (key === 'ArrowLeft' || key === 'a' || key === 'A') {&amp;#10;        puzzles.procedures['change_state'](-1);&amp;#10;  } else if (key === 'ArrowRight' || key === 'd' || key === 'D') {&amp;#10;        puzzles.procedures['change_state'](1);&amp;#10;  } &amp;#10;});</field>
+                                <block type="whenClicked" id="fXW0[QE9.XUGyJ+;#OC?" inline="false">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+                                  <field name="X_RAY">FALSE</field>
+                                  <field name="DOUBLE_CLICK">FALSE</field>
+                                  <field name="LEFT_BUTTON">TRUE</field>
+                                  <field name="MIDDLE_BUTTON">TRUE</field>
+                                  <field name="RIGHT_BUTTON">TRUE</field>
+                                  <value name="VALUE">
+                                    <shadow type="objectList" id="5c7a%m.DWP_mGw1fO7Su">
+                                      <field name="FIELDNAME">&lt;none&gt;</field>
                                     </shadow>
+                                    <block type="DOMObjectSelector" id="MZ!x!rE~Oy7B$,zuBZDd">
+                                      <field name="DOM_OBJECT">CONTAINER</field>
+                                    </block>
                                   </value>
+                                  <statement name="DO">
+                                    <block type="procedures_callnoreturn" id="n~3Kv;#?CF{EU:Aw%*]$">
+                                      <mutation name="change_state"></mutation>
+                                    </block>
+                                  </statement>
                                 </block>
                               </next>
                             </block>
@@ -1171,24 +1176,24 @@
       </next>
     </block>
     <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="RmxNOwAX{t9~~P@84LO;" x="-330" y="2270">
-      <mutation>
-        <arg name="x" varid="c*wLyh5TmTUTz6e~NOID"></arg>
-      </mutation>
       <field name="NAME">change_state</field>
       <comment pinned="false" h="80" w="160">Describe this function...</comment>
       <statement name="STACK">
-        <block type="controls_if" id="95!$@b^u|sQ*.ZZ(h,d!">
-          <value name="IF0">
-            <block type="logic_compare" id="6?*(EGm7Y:eLhj#[C-Q7">
-              <field name="OP">GTE</field>
-              <value name="A">
-                <block type="math_arithmetic" id="2i#rq*a%%b+H53ueO[Bb">
+        <block type="variables_set" id="7EC*,FTy~%}Ey+DdqDZ,">
+          <field name="VAR" id="PUWpp+kLZDy7D@nmkCR2">state</field>
+          <value name="VALUE">
+            <block type="math_modulo" id="#D;]LT@ducZN1mbv:Qp6">
+              <value name="DIVIDEND">
+                <shadow type="math_number" id="u@;Q-H?,$XYXi_BvDWo{">
+                  <field name="NUM">8</field>
+                </shadow>
+                <block type="math_arithmetic" id="5s8aufcyQ5($*-Iw9I@N">
                   <field name="OP">ADD</field>
                   <value name="A">
                     <shadow type="math_number" id=";,=7eX(Ga?M(3q%F{Mg{">
                       <field name="NUM">2</field>
                     </shadow>
-                    <block type="variables_get" id="^L^);oUk(@Un0/eRg*t%">
+                    <block type="variables_get" id="2jCjWv*dZ4S:a8}Zgb#_">
                       <field name="VAR" id="PUWpp+kLZDy7D@nmkCR2">state</field>
                     </block>
                   </value>
@@ -1196,64 +1201,23 @@
                     <shadow type="math_number" id="~:B9i.N*IDvC@k!5rkj~">
                       <field name="NUM">1</field>
                     </shadow>
-                    <block type="variables_get" id="J1bjX^D__/gfZ*bjacm8">
-                      <field name="VAR" id="c*wLyh5TmTUTz6e~NOID">x</field>
-                    </block>
                   </value>
                 </block>
               </value>
-              <value name="B">
-                <block type="math_number" id="SL[bpqN?y4rY2KkHQsS(">
-                  <field name="NUM">0</field>
+              <value name="DIVISOR">
+                <shadow type="math_number" id="*iipf~y_F/JKB]Q:6|6M">
+                  <field name="NUM">3</field>
+                </shadow>
+                <block type="lists_length" id="tLbPE=F;Sk+tEj[.fmit">
+                  <value name="VALUE">
+                    <block type="variables_get" id="ex4%NXGdLd8ERfLcVwxO">
+                      <field name="VAR" id="RfFqhuISKzBiGPK8W+}H">st</field>
+                    </block>
+                  </value>
                 </block>
               </value>
             </block>
           </value>
-          <statement name="DO0">
-            <block type="variables_set" id="7EC*,FTy~%}Ey+DdqDZ,">
-              <field name="VAR" id="PUWpp+kLZDy7D@nmkCR2">state</field>
-              <value name="VALUE">
-                <block type="math_modulo" id="#D;]LT@ducZN1mbv:Qp6">
-                  <value name="DIVIDEND">
-                    <shadow type="math_number" id="u@;Q-H?,$XYXi_BvDWo{">
-                      <field name="NUM">8</field>
-                    </shadow>
-                    <block type="math_arithmetic" id="5s8aufcyQ5($*-Iw9I@N">
-                      <field name="OP">ADD</field>
-                      <value name="A">
-                        <shadow type="math_number" id=";,=7eX(Ga?M(3q%F{Mg{">
-                          <field name="NUM">2</field>
-                        </shadow>
-                        <block type="variables_get" id="2jCjWv*dZ4S:a8}Zgb#_">
-                          <field name="VAR" id="PUWpp+kLZDy7D@nmkCR2">state</field>
-                        </block>
-                      </value>
-                      <value name="B">
-                        <shadow type="math_number" id="~:B9i.N*IDvC@k!5rkj~">
-                          <field name="NUM">1</field>
-                        </shadow>
-                        <block type="variables_get" id="*6~K[}4;Use%7-mNWaYv">
-                          <field name="VAR" id="c*wLyh5TmTUTz6e~NOID">x</field>
-                        </block>
-                      </value>
-                    </block>
-                  </value>
-                  <value name="DIVISOR">
-                    <shadow type="math_number" id="*iipf~y_F/JKB]Q:6|6M">
-                      <field name="NUM">3</field>
-                    </shadow>
-                    <block type="lists_length" id="tLbPE=F;Sk+tEj[.fmit">
-                      <value name="VALUE">
-                        <block type="variables_get" id="ex4%NXGdLd8ERfLcVwxO">
-                          <field name="VAR" id="RfFqhuISKzBiGPK8W+}H">st</field>
-                        </block>
-                      </value>
-                    </block>
-                  </value>
-                </block>
-              </value>
-            </block>
-          </statement>
           <next>
             <block type="controls_forEach" id="Rp@`JTeacu:d?F0*Pt`C">
               <field name="VAR" id="_oB!#|)4|mJSE~nD{O+j">i</field>
