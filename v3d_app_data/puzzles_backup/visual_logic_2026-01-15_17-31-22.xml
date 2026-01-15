@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="2097.3755565023675" scrolly="-127.51424303281203" scale="0.7462153966366273">
+  <tab name="main" type="CommonTab" active="true" scrollx="2450.150146484377" scrolly="-561.047515869142" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="c*wLyh5TmTUTz6e~NOID">x</variable>
@@ -196,7 +196,7 @@
       <field name="VAR" id="RfFqhuISKzBiGPK8W+}H">st</field>
       <value name="VALUE">
         <block type="lists_create_with" id="Mc8/l21S1Q^7gmtAL[ho">
-          <mutation items="12"></mutation>
+          <mutation items="15"></mutation>
           <value name="ADD0">
             <block type="lists_create_with" id="G~b;)n71PEnd,.gozP0/">
               <mutation items="1"></mutation>
@@ -332,112 +332,37 @@
               </value>
             </block>
           </value>
-          <value name="ADD7">
-            <block type="lists_create_with" id="4EU{Qddsj)i8yyjgzaC1">
+          <value name="ADD13">
+            <block type="lists_create_with" id="U^be.fMY/Q(_r[*8|-``">
               <mutation items="4"></mutation>
               <value name="ADD0">
-                <block type="groupList" id="bB]UpX^hru^$1-6qWx,6">
-                  <field name="FIELDNAME">menu_3</field>
+                <block type="groupList" id="Mz@xN.~QXexrEsB}v=Bn">
+                  <field name="FIELDNAME">menu_2</field>
                 </block>
               </value>
               <value name="ADD1">
-                <block type="groupList" id="pKE]qMOW4p_BQ@7pQxnt">
+                <block type="groupList" id="T2`;PAZ~DYg9X|sz:xI2">
                   <field name="FIELDNAME">train</field>
                 </block>
               </value>
               <value name="ADD2">
-                <block type="groupList" id=")uQKV9HC/qt=Ec=F8UYK">
+                <block type="groupList" id="S9t.$=%pt*e4)Kr5TihS">
                   <field name="FIELDNAME">base</field>
                 </block>
               </value>
               <value name="ADD3">
-                <block type="groupList" id="+!3R.hM]=r/,nLU4X(=Y">
+                <block type="groupList" id="63||-fC1ROaD!5?V;lg|">
                   <field name="FIELDNAME">switcher</field>
                 </block>
               </value>
             </block>
           </value>
-          <value name="ADD8">
-            <block type="lists_create_with" id="ELxY.S`k9!+2x-M|.Nk:">
-              <mutation items="4"></mutation>
-              <value name="ADD0">
-                <block type="groupList" id="{RhD{]$GZODvXp^%e5^A">
-                  <field name="FIELDNAME">menu_4</field>
-                </block>
-              </value>
-              <value name="ADD1">
-                <block type="groupList" id="rlK`V}.0_kE]A;Nj=8Sv">
-                  <field name="FIELDNAME">train</field>
-                </block>
-              </value>
-              <value name="ADD2">
-                <block type="groupList" id="VLyls#UJq~.5U,{?}$fo">
-                  <field name="FIELDNAME">base</field>
-                </block>
-              </value>
-              <value name="ADD3">
-                <block type="groupList" id="8=+rCM6`PDwb+b-b?G}C">
-                  <field name="FIELDNAME">switcher</field>
-                </block>
-              </value>
-            </block>
-          </value>
-          <value name="ADD9">
-            <block type="lists_create_with" id="@5g=3HjQCR1Y8VdDLi|-">
-              <mutation items="4"></mutation>
-              <value name="ADD0">
-                <block type="groupList" id="9bJd_D9}bbTr!U[+)!!s">
-                  <field name="FIELDNAME">menu_5</field>
-                </block>
-              </value>
-              <value name="ADD1">
-                <block type="groupList" id="v~*c32HwglCP-qa,+HVD">
-                  <field name="FIELDNAME">train</field>
-                </block>
-              </value>
-              <value name="ADD2">
-                <block type="groupList" id="[SF1OtWqO^Zq=c/1Ji,q">
-                  <field name="FIELDNAME">base</field>
-                </block>
-              </value>
-              <value name="ADD3">
-                <block type="groupList" id="lzcg{jMq^h-~Bt3]wn/[">
-                  <field name="FIELDNAME">switcher</field>
-                </block>
-              </value>
-            </block>
-          </value>
-          <value name="ADD10">
-            <block type="lists_create_with" id="MkQMkZNdb++(.sU$2BYf">
-              <mutation items="4"></mutation>
-              <value name="ADD0">
-                <block type="groupList" id="Ku~-~a$rAmzV3v0C2e{)">
-                  <field name="FIELDNAME">menu_6</field>
-                </block>
-              </value>
-              <value name="ADD1">
-                <block type="groupList" id="ZAt![wPGjrN.B!KOb1yv">
-                  <field name="FIELDNAME">train</field>
-                </block>
-              </value>
-              <value name="ADD2">
-                <block type="groupList" id="6=GxUwmV?mkVzqj*pu1B">
-                  <field name="FIELDNAME">base</field>
-                </block>
-              </value>
-              <value name="ADD3">
-                <block type="groupList" id="k`bb.U+{,@H1gijHBZ8X">
-                  <field name="FIELDNAME">switcher</field>
-                </block>
-              </value>
-            </block>
-          </value>
-          <value name="ADD11">
+          <value name="ADD14">
             <block type="lists_create_with" id="/2?Fu?{S#lg,{^y,T`^d">
               <mutation items="4"></mutation>
               <value name="ADD0">
                 <block type="groupList" id="YnBTGIIls^7=}ZD^Ta8?">
-                  <field name="FIELDNAME">menu_6</field>
+                  <field name="FIELDNAME">menu_2</field>
                 </block>
               </value>
               <value name="ADD1">
