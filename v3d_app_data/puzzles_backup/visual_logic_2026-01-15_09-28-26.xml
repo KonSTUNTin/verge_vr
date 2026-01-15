@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="2381.7074829931953" scrolly="-1512.8049886621316" scale="0.9070294784580488">
+  <tab name="main" type="CommonTab" active="true" scrollx="1594.1308444044794" scrolly="-1248.6347468980712" scale="0.6139132535407587">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="c*wLyh5TmTUTz6e~NOID">x</variable>
@@ -687,6 +687,9 @@
                                                                                             <shadow type="math_number" id="~:B9i.N*IDvC@k!5rkj~">
                                                                                               <field name="NUM">1</field>
                                                                                             </shadow>
+                                                                                            <block type="variables_get" id="RZ*fR1W-f4x%`|PD%gAs">
+                                                                                              <field name="VAR" id="c*wLyh5TmTUTz6e~NOID">x</field>
+                                                                                            </block>
                                                                                           </value>
                                                                                         </block>
                                                                                       </value>
@@ -1557,7 +1560,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="wall logic" type="CommonTab" active="false" scrollx="1220.5967254638672" scrolly="-440" scale="1">
+  <tab name="wall logic" type="CommonTab" active="false" scrollx="1033.8816223144531" scrolly="-330" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="(mME~oaSSeo}6O,?wKKr">controls</variable>
       <variable id="fj/rf#:.qcKO]`XV.u0M">walls</variable>
@@ -1769,6 +1772,6 @@
       </next>
     </block>
   </tab>
-  <tab name="menu" type="CommonTab" active="false" scrollx="2010.409927368164" scrolly="430" scale="1"></tab>
+  <tab name="menu" type="CommonTab" active="false" scrollx="1340.2732849121094" scrolly="430" scale="1"></tab>
   <editorsettings viewport-x="949.9182373046874" viewport-y="59.81817626953125" viewport-w="659.898" viewport-h="326" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
 </xml>
