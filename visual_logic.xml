@@ -8,12 +8,13 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1818.5328323290187" scrolly="-500.3339551314202" scale="0.6768393620286868">
+  <tab name="main" type="CommonTab" active="true" scrollx="2149.439535768888" scrolly="-3115.9115154761603" scale="0.8554492363994057">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="c*wLyh5TmTUTz6e~NOID">x</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
       <variable id="PUWpp+kLZDy7D@nmkCR2">state</variable>
+      <variable id="9lF]2GMb=~#u~.L/~O9X">color_operative</variable>
       <variable id="@bD~%cJFHMDKf4x;|YL^">prevStickMoved</variable>
       <variable id="_oB!#|)4|mJSE~nD{O+j">i</variable>
       <variable id="/1J858RY/]-Br.Ko@o^(">visibility</variable>
@@ -1465,6 +1466,30 @@
                                       <field name="TEXT" editor-height="18" editor-width="665.3990662027777">document.addEventListener('keydown', (event) =&gt; {&amp;#10;  const key = event.key;&amp;#10;&amp;#10;  if (key === 'ArrowLeft' || key === 'a' || key === 'A') {&amp;#10;        puzzles.procedures['change_state'](-1);&amp;#10;  } else if (key === 'ArrowRight' || key === 'd' || key === 'D') {&amp;#10;        puzzles.procedures['change_state'](1);&amp;#10;  } &amp;#10;});</field>
                                     </shadow>
                                   </value>
+                                  <next>
+                                    <block type="procedures_callnoreturn" id="wso;Fr6OoV!5zY||w_n}">
+                                      <mutation name="hover_material">
+                                        <arg name="x"></arg>
+                                      </mutation>
+                                      <value name="ARG0">
+                                        <block type="objectList" id="ZMmd$Dg:K-4?HS2SvXQB">
+                                          <field name="FIELDNAME">corner</field>
+                                        </block>
+                                      </value>
+                                      <next>
+                                        <block type="procedures_callnoreturn" id="v+hO=V:aZYVS}F$*NTCf">
+                                          <mutation name="hover_material">
+                                            <arg name="x"></arg>
+                                          </mutation>
+                                          <value name="ARG0">
+                                            <block type="objectList" id="n8pn%~NMMxm,n5MqNOY9">
+                                              <field name="FIELDNAME">Cylinder.007</field>
+                                            </block>
+                                          </value>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
                                 </block>
                               </next>
                             </block>
@@ -1704,6 +1729,84 @@
                   </next>
                 </block>
               </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="t-N$?|dplmhecNIL+a8l" x="-1030" y="4170">
+      <mutation>
+        <arg name="x" varid="c*wLyh5TmTUTz6e~NOID"></arg>
+      </mutation>
+      <field name="NAME">hover_material</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+      <statement name="STACK">
+        <block type="variables_set" id="w^KxtV9`*5Kk]D$ZRE)k">
+          <field name="VAR" id="9lF]2GMb=~#u~.L/~O9X">color_operative</field>
+          <value name="VALUE">
+            <block type="getObjectMaterial" id="zta`3*{Z3zoVi~xP$a`%">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+              <value name="VALUE">
+                <shadow type="objectList" id="NN8A_uH.M=6GD;OjN.R?">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="variables_get" id="/i~Q$](0[?0_[]*RGZ9z">
+                  <field name="VAR" id="c*wLyh5TmTUTz6e~NOID">x</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <next>
+            <block type="whenHovered" id="K5*}oTMT(-J_o|+nPAW:" inline="false">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="mm?hHu[a^03BHnyp*=E2">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="variables_get" id="C%Glpm^.],tC*-Mu1p4*">
+                  <field name="VAR" id="c*wLyh5TmTUTz6e~NOID">x</field>
+                </block>
+              </value>
+              <statement name="DO_OVER">
+                <block type="assignMaterial" id="q-Sinb[S)Zt+#[-ae){3">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                  <value name="VALUE2">
+                    <shadow type="materialList" id="X[d{;Lk]zl2.$B[Y,mh6">
+                      <field name="FIELDNAME">White</field>
+                    </shadow>
+                  </value>
+                  <value name="VALUE1">
+                    <shadow type="objectList" id="URtTsUtiAt,j?!kjJpyN">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="variables_get" id="=LkNrPtKEiO58!m0IxEe">
+                      <field name="VAR" id="c*wLyh5TmTUTz6e~NOID">x</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+              <statement name="DO_OUT">
+                <block type="assignMaterial" id="QMzc+UeGHqIEQ%!4o}Ol">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                  <value name="VALUE2">
+                    <shadow type="materialList" id="#e9bbmy~4S3qHDy/b@cO">
+                      <field name="FIELDNAME">White</field>
+                    </shadow>
+                    <block type="variables_get" id="t=nQqwqpnzf6FbRdc=~L">
+                      <field name="VAR" id="9lF]2GMb=~#u~.L/~O9X">color_operative</field>
+                    </block>
+                  </value>
+                  <value name="VALUE1">
+                    <shadow type="objectList" id="URtTsUtiAt,j?!kjJpyN">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="variables_get" id="W[Cq8iM.)_jRr;0aPCdu">
+                      <field name="VAR" id="c*wLyh5TmTUTz6e~NOID">x</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
             </block>
           </next>
         </block>
