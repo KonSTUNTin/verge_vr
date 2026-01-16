@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1818.5328323290187" scrolly="-500.3339551314202" scale="0.6768393620286868">
+  <tab name="main" type="CommonTab" active="true" scrollx="1489.0393004957914" scrolly="-1287.3197183728334" scale="0.5355215745116515">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="c*wLyh5TmTUTz6e~NOID">x</variable>
@@ -434,7 +434,7 @@
           </value>
           <value name="ADD11">
             <block type="lists_create_with" id="/2?Fu?{S#lg,{^y,T`^d">
-              <mutation items="5"></mutation>
+              <mutation items="4"></mutation>
               <value name="ADD0">
                 <block type="groupList" id="YnBTGIIls^7=}ZD^Ta8?">
                   <field name="FIELDNAME">menu_4</field>
@@ -453,11 +453,6 @@
               <value name="ADD3">
                 <block type="groupList" id="B,mF@QJ))n4@c(kDRmy:">
                   <field name="FIELDNAME">only_gizmo</field>
-                </block>
-              </value>
-              <value name="ADD4">
-                <block type="groupList" id="VSxY2RQf$xsicdgZR=u7">
-                  <field name="FIELDNAME">hover</field>
                 </block>
               </value>
             </block>
