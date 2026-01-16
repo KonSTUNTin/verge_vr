@@ -1946,7 +1946,7 @@
                       <field name="FIELDNAME">White</field>
                     </shadow>
                     <block type="variables_get" id="cm-@XyUM8K5ODUru1(Ry">
-                      <field name="VAR" id="Ke~1hKPVP;9.$a[WZB_T">color_operative_2</field>
+                      <field name="VAR" id="9lF]2GMb=~#u~.L/~O9X">color_operative</field>
                     </block>
                   </value>
                   <value name="VALUE1">
