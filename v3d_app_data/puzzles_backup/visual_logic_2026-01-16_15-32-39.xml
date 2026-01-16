@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="2083.1689634772347" scrolly="-3048.0150220600267" scale="0.8554492363994064">
+  <tab name="main" type="CommonTab" active="true" scrollx="2149.439535768888" scrolly="-3115.9115154761603" scale="0.8554492363994057">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="c*wLyh5TmTUTz6e~NOID">x</variable>
@@ -1473,7 +1473,7 @@
                                       </mutation>
                                       <value name="ARG0">
                                         <block type="objectList" id="ZMmd$Dg:K-4?HS2SvXQB">
-                                          <field name="FIELDNAME">corner_1</field>
+                                          <field name="FIELDNAME">corner</field>
                                         </block>
                                       </value>
                                       <next>
@@ -1483,33 +1483,9 @@
                                           </mutation>
                                           <value name="ARG0">
                                             <block type="objectList" id="n8pn%~NMMxm,n5MqNOY9">
-                                              <field name="FIELDNAME">corner_2</field>
+                                              <field name="FIELDNAME">Cylinder.007</field>
                                             </block>
                                           </value>
-                                          <next>
-                                            <block type="procedures_callnoreturn" id="_S;c,X@G)0*@PTccX{q|">
-                                              <mutation name="hover_material">
-                                                <arg name="x"></arg>
-                                              </mutation>
-                                              <value name="ARG0">
-                                                <block type="objectList" id="WNenbUDhRmNoUV%Rl-Ed">
-                                                  <field name="FIELDNAME">corner_3</field>
-                                                </block>
-                                              </value>
-                                              <next>
-                                                <block type="procedures_callnoreturn" id="3,uo:lBV]kh;Bizz2r=m">
-                                                  <mutation name="hover_material">
-                                                    <arg name="x"></arg>
-                                                  </mutation>
-                                                  <value name="ARG0">
-                                                    <block type="objectList" id="*P0hYvScQR7qnjtc)k9f">
-                                                      <field name="FIELDNAME">corner_4</field>
-                                                    </block>
-                                                  </value>
-                                                </block>
-                                              </next>
-                                            </block>
-                                          </next>
                                         </block>
                                       </next>
                                     </block>
