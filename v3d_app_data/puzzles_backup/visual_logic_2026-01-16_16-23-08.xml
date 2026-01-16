@@ -12,7 +12,6 @@
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="c*wLyh5TmTUTz6e~NOID">x</variable>
-      <variable id="O;z9m87)ci{7qXM+hz9a">y</variable>
       <variable id="VRicic%FFK7iCDzT8|@(">VR_mode</variable>
       <variable id="PUWpp+kLZDy7D@nmkCR2">state</variable>
       <variable id="9lF]2GMb=~#u~.L/~O9X">color_operative</variable>
@@ -1508,9 +1507,9 @@
                                                     </block>
                                                   </value>
                                                   <next>
-                                                    <block type="procedures_callnoreturn" id="~IrCOLVu{iz5B[Xkd{s3">
-                                                      <mutation name="red_hover">
-                                                        <arg name="y"></arg>
+                                                    <block type="procedures_callnoreturn" id="JSo;pX?++Mp`9)W*G$qm">
+                                                      <mutation name="blue_hover">
+                                                        <arg name="x"></arg>
                                                       </mutation>
                                                       <value name="ARG0">
                                                         <block type="objectList" id=";c3.-=UAoZ(p#n2WDn!s">
@@ -1518,9 +1517,9 @@
                                                         </block>
                                                       </value>
                                                       <next>
-                                                        <block type="procedures_callnoreturn" id="iZoEtHwr|/BI^R]dZsUR">
-                                                          <mutation name="red_hover">
-                                                            <arg name="y"></arg>
+                                                        <block type="procedures_callnoreturn" id="yM%vT2mf!/_.dBP)J~=9">
+                                                          <mutation name="blue_hover">
+                                                            <arg name="x"></arg>
                                                           </mutation>
                                                           <value name="ARG0">
                                                             <block type="objectList" id="5sDR#1O#{_Gg%+DU]irk">
@@ -1528,9 +1527,9 @@
                                                             </block>
                                                           </value>
                                                           <next>
-                                                            <block type="procedures_callnoreturn" id="kiFk7]?qsh),Wb]C@if^">
-                                                              <mutation name="red_hover">
-                                                                <arg name="y"></arg>
+                                                            <block type="procedures_callnoreturn" id="*s~.]Y8O9X7K0;(3V;_m">
+                                                              <mutation name="blue_hover">
+                                                                <arg name="x"></arg>
                                                               </mutation>
                                                               <value name="ARG0">
                                                                 <block type="objectList" id="kBL#u)]9AK[GS;ePS0:4">
@@ -1538,9 +1537,9 @@
                                                                 </block>
                                                               </value>
                                                               <next>
-                                                                <block type="procedures_callnoreturn" id="n*XvMQvQHQEL$Shm3}f(">
-                                                                  <mutation name="red_hover">
-                                                                    <arg name="y"></arg>
+                                                                <block type="procedures_callnoreturn" id="EJr2Ra0?9[4Optbs]T*9">
+                                                                  <mutation name="blue_hover">
+                                                                    <arg name="x"></arg>
                                                                   </mutation>
                                                                   <value name="ARG0">
                                                                     <block type="objectList" id="8z{c=tS@/fAOW9z)|C3s">
@@ -1887,7 +1886,7 @@
     </block>
     <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="s`=LBxrpTs5)b^uWiy8z" x="-1430" y="4510">
       <mutation>
-        <arg name="y" varid="O;z9m87)ci{7qXM+hz9a"></arg>
+        <arg name="x" varid="c*wLyh5TmTUTz6e~NOID"></arg>
       </mutation>
       <field name="NAME">red_hover</field>
       <comment pinned="false" h="80" w="160">Describe this function...</comment>
@@ -1902,7 +1901,7 @@
                   <field name="FIELDNAME">&lt;none&gt;</field>
                 </shadow>
                 <block type="variables_get" id="xVQL)?yF*3|1zh:h^[v5">
-                  <field name="VAR" id="O;z9m87)ci{7qXM+hz9a">y</field>
+                  <field name="VAR" id="c*wLyh5TmTUTz6e~NOID">x</field>
                 </block>
               </value>
             </block>
@@ -1915,8 +1914,8 @@
                 <shadow type="objectList" id="mm?hHu[a^03BHnyp*=E2">
                   <field name="FIELDNAME">&lt;none&gt;</field>
                 </shadow>
-                <block type="variables_get" id="Dtu+h=S#@k%lqtbyXN%~">
-                  <field name="VAR" id="O;z9m87)ci{7qXM+hz9a">y</field>
+                <block type="variables_get" id="C?Duk;-QEc4_7#g-gd/q">
+                  <field name="VAR" id="c*wLyh5TmTUTz6e~NOID">x</field>
                 </block>
               </value>
               <statement name="DO_OVER">
@@ -1932,7 +1931,7 @@
                       <field name="FIELDNAME">&lt;none&gt;</field>
                     </shadow>
                     <block type="variables_get" id="`QHyjsVq`^KlXfq{#!%c">
-                      <field name="VAR" id="O;z9m87)ci{7qXM+hz9a">y</field>
+                      <field name="VAR" id="c*wLyh5TmTUTz6e~NOID">x</field>
                     </block>
                   </value>
                 </block>
@@ -1953,7 +1952,7 @@
                       <field name="FIELDNAME">&lt;none&gt;</field>
                     </shadow>
                     <block type="variables_get" id="!YF`np^6t~5jmA/%y6$:">
-                      <field name="VAR" id="O;z9m87)ci{7qXM+hz9a">y</field>
+                      <field name="VAR" id="c*wLyh5TmTUTz6e~NOID">x</field>
                     </block>
                   </value>
                 </block>
@@ -1962,9 +1961,6 @@
           </next>
         </block>
       </statement>
-    </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="variables_get" id="C?Duk;-QEc4_7#g-gd/q" x="-1240" y="4611">
-      <field name="VAR" id="c*wLyh5TmTUTz6e~NOID">x</field>
     </block>
   </tab>
   <tab name="wall logic" type="CommonTab" active="false" scrollx="1201.8633575439453" scrolly="-116" scale="1">
