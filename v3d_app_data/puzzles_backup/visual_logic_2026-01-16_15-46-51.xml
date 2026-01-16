@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1955.9394657450534" scrolly="-3130.254545348276" scale="0.8554492363994068">
+  <tab name="main" type="CommonTab" active="true" scrollx="1873.5689878912972" scrolly="-1031.215034267058" scale="0.8554492363994064">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="c*wLyh5TmTUTz6e~NOID">x</variable>
@@ -1797,7 +1797,7 @@
                   <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
                   <value name="VALUE2">
                     <shadow type="materialList" id="X[d{;Lk]zl2.$B[Y,mh6">
-                      <field name="FIELDNAME">Blue_hov</field>
+                      <field name="FIELDNAME">White</field>
                     </shadow>
                   </value>
                   <value name="VALUE1">
