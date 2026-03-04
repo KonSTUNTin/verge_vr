@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="init" type="InitTab" active="false" scrollx="222.54431431846388" scrolly="-61.2521159995315" scale="0.5568374181775592">
+  <tab name="init" type="InitTab" active="false" scrollx="222.54431431846388" scrolly="-61.252115999531384" scale="0.5568374181775592">
     <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="z5O,3)}Z!j?0Hb.Ns@]0" x="130" y="110">
       <field name="LOAD_COMP_ASSETS">TRUE</field>
       <field name="FULLSCREEN">TRUE</field>
@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="2561.916015625" scrolly="-1938.1588134765625" scale="1">
+  <tab name="main" type="CommonTab" active="true" scrollx="1772.3160544731863" scrolly="-1330.355733719583" scale="0.7317933960563285">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="c*wLyh5TmTUTz6e~NOID">x</variable>
@@ -2084,7 +2084,7 @@
       <field name="VAR" id="O;z9m87)ci{7qXM+hz9a">y</field>
     </block>
   </tab>
-  <tab name="wall logic" type="CommonTab" active="false" scrollx="1201.8633575439453" scrolly="0" scale="1">
+  <tab name="wall logic" type="CommonTab" active="false" scrollx="1201.8633575439453" scrolly="-116" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="(mME~oaSSeo}6O,?wKKr">controls</variable>
       <variable id="fj/rf#:.qcKO]`XV.u0M">walls</variable>
