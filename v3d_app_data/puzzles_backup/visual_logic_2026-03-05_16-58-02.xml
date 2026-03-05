@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="init" type="InitTab" active="false" scrollx="222.54431431846365" scrolly="-61.2521159995315" scale="0.5568374181775592">
+  <tab name="init" type="InitTab" active="false" scrollx="222.54431431846388" scrolly="-61.252115999531384" scale="0.5568374181775592">
     <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="z5O,3)}Z!j?0Hb.Ns@]0" x="130" y="110">
       <field name="LOAD_COMP_ASSETS">TRUE</field>
       <field name="FULLSCREEN">TRUE</field>
@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1880.2163190804422" scrolly="-418.52800865322934" scale="0.8164098541536877">
+  <tab name="main" type="CommonTab" active="true" scrollx="2045.7715404054325" scrolly="-446.3782441320435" scale="0.7912092655287303">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="c*wLyh5TmTUTz6e~NOID">x</variable>
@@ -199,7 +199,7 @@
       <field name="VAR" id="RfFqhuISKzBiGPK8W+}H">st</field>
       <value name="VALUE">
         <block type="lists_create_with" id="Mc8/l21S1Q^7gmtAL[ho">
-          <mutation items="17"></mutation>
+          <mutation items="15"></mutation>
           <value name="ADD0">
             <block type="lists_create_with" id="G~b;)n71PEnd,.gozP0/">
               <mutation items="1"></mutation>
@@ -211,36 +211,6 @@
             </block>
           </value>
           <value name="ADD1">
-            <block type="lists_create_with" id="D8(b0OJ^vjj|6{4/A4s;">
-              <mutation items="2"></mutation>
-              <value name="ADD0">
-                <block type="groupList" id="VM[HRX+e/9%$n5;ftQGe">
-                  <field name="FIELDNAME">zone error</field>
-                </block>
-              </value>
-              <value name="ADD1">
-                <block type="groupList" id="WaW+;fQ%l~{4EZ9si+@s">
-                  <field name="FIELDNAME">base</field>
-                </block>
-              </value>
-            </block>
-          </value>
-          <value name="ADD2">
-            <block type="lists_create_with" id=",T=]X@MICj-d{6hN^T?%">
-              <mutation items="2"></mutation>
-              <value name="ADD0">
-                <block type="groupList" id="Rp$#6)ctsdCWq41f|PT6">
-                  <field name="FIELDNAME">zone error 2</field>
-                </block>
-              </value>
-              <value name="ADD1">
-                <block type="groupList" id="La0)U[~]1@[o,]*CA;6B">
-                  <field name="FIELDNAME">base</field>
-                </block>
-              </value>
-            </block>
-          </value>
-          <value name="ADD3">
             <block type="lists_create_with" id="CW3)b#$Ou5b.ebn?i7f,">
               <mutation items="2"></mutation>
               <value name="ADD0">
@@ -255,7 +225,7 @@
               </value>
             </block>
           </value>
-          <value name="ADD4">
+          <value name="ADD2">
             <block type="lists_create_with" id="xt`%7gJumM1!kU.AAP_4">
               <mutation items="3"></mutation>
               <value name="ADD0">
@@ -275,7 +245,7 @@
               </value>
             </block>
           </value>
-          <value name="ADD5">
+          <value name="ADD3">
             <block type="lists_create_with" id="i);Xr=#=uS=:89jrXw~Z">
               <mutation items="3"></mutation>
               <value name="ADD0">
@@ -295,7 +265,7 @@
               </value>
             </block>
           </value>
-          <value name="ADD6">
+          <value name="ADD4">
             <block type="lists_create_with" id="@Li7M`ShCpEA)0KKubxF">
               <mutation items="3"></mutation>
               <value name="ADD0">
@@ -315,7 +285,7 @@
               </value>
             </block>
           </value>
-          <value name="ADD7">
+          <value name="ADD5">
             <block type="lists_create_with" id="%z[j$0:Mn(8H/=[3wfc_">
               <mutation items="3"></mutation>
               <value name="ADD0">
@@ -335,7 +305,7 @@
               </value>
             </block>
           </value>
-          <value name="ADD8">
+          <value name="ADD6">
             <block type="lists_create_with" id="w.7Iyz8J$ZL*0E;8Ll]_">
               <mutation items="3"></mutation>
               <value name="ADD0">
@@ -355,7 +325,7 @@
               </value>
             </block>
           </value>
-          <value name="ADD9">
+          <value name="ADD7">
             <block type="lists_create_with" id="`1b34dMWk|ND5EC~rEX@">
               <mutation items="3"></mutation>
               <value name="ADD0">
@@ -375,7 +345,7 @@
               </value>
             </block>
           </value>
-          <value name="ADD10">
+          <value name="ADD8">
             <block type="lists_create_with" id="L8hAT%8,D7v4Z}`/JBNN">
               <mutation items="4"></mutation>
               <value name="ADD0">
@@ -400,7 +370,7 @@
               </value>
             </block>
           </value>
-          <value name="ADD11">
+          <value name="ADD9">
             <block type="lists_create_with" id="4EU{Qddsj)i8yyjgzaC1">
               <mutation items="4"></mutation>
               <value name="ADD0">
@@ -425,7 +395,7 @@
               </value>
             </block>
           </value>
-          <value name="ADD12">
+          <value name="ADD10">
             <block type="lists_create_with" id="ELxY.S`k9!+2x-M|.Nk:">
               <mutation items="4"></mutation>
               <value name="ADD0">
@@ -450,7 +420,7 @@
               </value>
             </block>
           </value>
-          <value name="ADD13">
+          <value name="ADD11">
             <block type="lists_create_with" id="@5g=3HjQCR1Y8VdDLi|-">
               <mutation items="4"></mutation>
               <value name="ADD0">
@@ -475,7 +445,7 @@
               </value>
             </block>
           </value>
-          <value name="ADD14">
+          <value name="ADD12">
             <block type="lists_create_with" id="MkQMkZNdb++(.sU$2BYf">
               <mutation items="4"></mutation>
               <value name="ADD0">
@@ -500,7 +470,7 @@
               </value>
             </block>
           </value>
-          <value name="ADD15">
+          <value name="ADD13">
             <block type="lists_create_with" id="/2?Fu?{S#lg,{^y,T`^d">
               <mutation items="5"></mutation>
               <value name="ADD0">
@@ -530,7 +500,7 @@
               </value>
             </block>
           </value>
-          <value name="ADD16">
+          <value name="ADD14">
             <block type="lists_create_with" id="u2Z*-)0/)/^sHA)87ZQM">
               <mutation items="5"></mutation>
               <value name="ADD0">
@@ -2114,7 +2084,7 @@
       <field name="VAR" id="O;z9m87)ci{7qXM+hz9a">y</field>
     </block>
   </tab>
-  <tab name="wall logic" type="CommonTab" active="false" scrollx="1088.2871856689453" scrolly="-110" scale="1">
+  <tab name="wall logic" type="CommonTab" active="false" scrollx="1201.8633575439453" scrolly="-110" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="(mME~oaSSeo}6O,?wKKr">controls</variable>
       <variable id="fj/rf#:.qcKO]`XV.u0M">walls</variable>
@@ -2326,6 +2296,6 @@
       </next>
     </block>
   </tab>
-  <tab name="menu" type="CommonTab" active="false" scrollx="1088.2871856689453" scrolly="0" scale="1"></tab>
+  <tab name="menu" type="CommonTab" active="false" scrollx="1201.8633575439453" scrolly="0" scale="1"></tab>
   <editorsettings viewport-x="949.9182373046874" viewport-y="59.81817626953125" viewport-w="659.898" viewport-h="326" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
 </xml>
