@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1853.418133588024" scrolly="-1315.4213592196638" scale="0.779405848651137">
+  <tab name="main" type="CommonTab" active="true" scrollx="1664.3993000713544" scrolly="-353.8991905272176" scale="0.6628120584174243">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="c*wLyh5TmTUTz6e~NOID">x</variable>
@@ -2114,7 +2114,7 @@
       <field name="VAR" id="O;z9m87)ci{7qXM+hz9a">y</field>
     </block>
   </tab>
-  <tab name="wall logic" type="CommonTab" active="false" scrollx="864.2871856689453" scrolly="-110" scale="1">
+  <tab name="wall logic" type="CommonTab" active="false" scrollx="1088.2871856689453" scrolly="-110" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="(mME~oaSSeo}6O,?wKKr">controls</variable>
       <variable id="fj/rf#:.qcKO]`XV.u0M">walls</variable>
@@ -2326,6 +2326,6 @@
       </next>
     </block>
   </tab>
-  <tab name="menu" type="CommonTab" active="false" scrollx="864.2871856689453" scrolly="0" scale="1"></tab>
+  <tab name="menu" type="CommonTab" active="false" scrollx="1088.2871856689453" scrolly="0" scale="1"></tab>
   <editorsettings viewport-x="949.9182373046874" viewport-y="59.81817626953125" viewport-w="659.898" viewport-h="326" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
 </xml>
