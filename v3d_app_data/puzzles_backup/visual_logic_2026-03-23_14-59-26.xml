@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1485.3376027906925" scrolly="-498.33207367501734" scale="0.5838045063046592">
+  <tab name="main" type="CommonTab" active="true" scrollx="1806.3497931326274" scrolly="-390.51037564907165" scale="0.7519746969195796">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="c*wLyh5TmTUTz6e~NOID">x</variable>
@@ -199,7 +199,7 @@
       <field name="VAR" id="RfFqhuISKzBiGPK8W+}H">st</field>
       <value name="VALUE">
         <block type="lists_create_with" id="Mc8/l21S1Q^7gmtAL[ho">
-          <mutation items="15"></mutation>
+          <mutation items="14"></mutation>
           <value name="ADD0">
             <block type="lists_create_with" id="G~b;)n71PEnd,.gozP0/">
               <mutation items="1"></mutation>
@@ -475,7 +475,7 @@
               <mutation items="5"></mutation>
               <value name="ADD0">
                 <block type="groupList" id="YnBTGIIls^7=}ZD^Ta8?">
-                  <field name="FIELDNAME">menu_0</field>
+                  <field name="FIELDNAME">menu_5</field>
                 </block>
               </value>
               <value name="ADD1">
@@ -495,36 +495,6 @@
               </value>
               <value name="ADD4">
                 <block type="groupList" id="d=1mtY=Y*qNa#r@;:np#">
-                  <field name="FIELDNAME">hover</field>
-                </block>
-              </value>
-            </block>
-          </value>
-          <value name="ADD14">
-            <block type="lists_create_with" id="@~IUI2aQ|3X*~.=s5P$.">
-              <mutation items="5"></mutation>
-              <value name="ADD0">
-                <block type="groupList" id="g1(4|U#JY$cxD6tF|,vG">
-                  <field name="FIELDNAME">menu_5</field>
-                </block>
-              </value>
-              <value name="ADD1">
-                <block type="groupList" id="TwJuF}U+*T%W`S,;urkq">
-                  <field name="FIELDNAME">train</field>
-                </block>
-              </value>
-              <value name="ADD2">
-                <block type="groupList" id="k3`PI.C~A?Z=t(Gdg+1?">
-                  <field name="FIELDNAME">base</field>
-                </block>
-              </value>
-              <value name="ADD3">
-                <block type="groupList" id="XzB^3WJA#*bVb6t5p7j5">
-                  <field name="FIELDNAME">switcher</field>
-                </block>
-              </value>
-              <value name="ADD4">
-                <block type="groupList" id="z?hW{r9{L_g1u/j7iyND">
                   <field name="FIELDNAME">hover</field>
                 </block>
               </value>
