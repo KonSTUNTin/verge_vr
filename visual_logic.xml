@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="true" scrollx="1485.3376027906925" scrolly="-498.33207367501734" scale="0.5838045063046592">
+  <tab name="main" type="CommonTab" active="true" scrollx="1545.8194977037256" scrolly="-385.86534304753786" scale="0.566327077689457">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="RfFqhuISKzBiGPK8W+}H">st</variable>
       <variable id="c*wLyh5TmTUTz6e~NOID">x</variable>
@@ -199,7 +199,7 @@
       <field name="VAR" id="RfFqhuISKzBiGPK8W+}H">st</field>
       <value name="VALUE">
         <block type="lists_create_with" id="Mc8/l21S1Q^7gmtAL[ho">
-          <mutation items="15"></mutation>
+          <mutation items="14"></mutation>
           <value name="ADD0">
             <block type="lists_create_with" id="G~b;)n71PEnd,.gozP0/">
               <mutation items="1"></mutation>
@@ -396,31 +396,6 @@
             </block>
           </value>
           <value name="ADD10">
-            <block type="lists_create_with" id="ELxY.S`k9!+2x-M|.Nk:">
-              <mutation items="4"></mutation>
-              <value name="ADD0">
-                <block type="groupList" id="{RhD{]$GZODvXp^%e5^A">
-                  <field name="FIELDNAME">menu_2</field>
-                </block>
-              </value>
-              <value name="ADD1">
-                <block type="groupList" id="rlK`V}.0_kE]A;Nj=8Sv">
-                  <field name="FIELDNAME">train</field>
-                </block>
-              </value>
-              <value name="ADD2">
-                <block type="groupList" id="VLyls#UJq~.5U,{?}$fo">
-                  <field name="FIELDNAME">base</field>
-                </block>
-              </value>
-              <value name="ADD3">
-                <block type="groupList" id="8=+rCM6`PDwb+b-b?G}C">
-                  <field name="FIELDNAME">switcher</field>
-                </block>
-              </value>
-            </block>
-          </value>
-          <value name="ADD11">
             <block type="lists_create_with" id="@5g=3HjQCR1Y8VdDLi|-">
               <mutation items="4"></mutation>
               <value name="ADD0">
@@ -445,7 +420,7 @@
               </value>
             </block>
           </value>
-          <value name="ADD12">
+          <value name="ADD11">
             <block type="lists_create_with" id="MkQMkZNdb++(.sU$2BYf">
               <mutation items="4"></mutation>
               <value name="ADD0">
@@ -470,7 +445,7 @@
               </value>
             </block>
           </value>
-          <value name="ADD13">
+          <value name="ADD12">
             <block type="lists_create_with" id="/2?Fu?{S#lg,{^y,T`^d">
               <mutation items="5"></mutation>
               <value name="ADD0">
@@ -500,7 +475,7 @@
               </value>
             </block>
           </value>
-          <value name="ADD14">
+          <value name="ADD13">
             <block type="lists_create_with" id="@~IUI2aQ|3X*~.=s5P$.">
               <mutation items="5"></mutation>
               <value name="ADD0">
@@ -2084,7 +2059,7 @@
       <field name="VAR" id="O;z9m87)ci{7qXM+hz9a">y</field>
     </block>
   </tab>
-  <tab name="wall logic" type="CommonTab" active="false" scrollx="864.2871856689453" scrolly="-110" scale="1">
+  <tab name="wall logic" type="CommonTab" active="false" scrollx="725.504490434075" scrolly="47.47632685530721" scale="0.7256443418428222">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="(mME~oaSSeo}6O,?wKKr">controls</variable>
       <variable id="fj/rf#:.qcKO]`XV.u0M">walls</variable>
